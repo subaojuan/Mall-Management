@@ -1,0 +1,453 @@
+[ 2017-04-23T10:52:43+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.088542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.772746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.773071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.053687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.065576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.065794s ]
+
+[ 2017-04-23T10:52:43+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-04-23T10:52:44+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-04-23T10:53:09+08:00 ] ::1 /school/index.php/Home/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.5171s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.8120s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `areas` WHERE `a_pid` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003177s ]
+
+[ 2017-04-23T10:53:16+08:00 ] ::1 /school/index.php/Home/Users/ajaxGetGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `goods` WHERE `g_user` = 1 ORDER BY g_time desc  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 180 行.
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002921s ]
+
+[ 2017-04-23T10:53:26+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.7999s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined variable: cate_data1 G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2017-04-23T11:06:29+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+
+[ 2017-04-23T11:07:20+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003652s ]
+
+[ 2017-04-23T11:12:14+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.289409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.289688s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1785s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.662695s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.662930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.357198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.357380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.067645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.067916s ]
+
+[ 2017-04-23T11:12:43+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.2544s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2017-04-23T11:13:39+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004254s ]
+
+[ 2017-04-23T11:14:15+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000630s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_categorys G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002978s ]
+
+[ 2017-04-23T11:16:40+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007241s ]
+
+[ 2017-04-23T11:17:24+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:1.0623s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : AttValue: &quot; or ' expected G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition=$cate_ids eq $v1.g_categorys  /&gt;&lt;/tpl&gt; G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                     ^ G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : attributes construct error G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition=$cate_ids eq $v1.g_categorys  /&gt;&lt;/tpl&gt; G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                     ^ G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition=$cate_ids eq $v1.g_categorys  /&gt;&lt;/tpl&gt; G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                     ^ G:\htdocs\school\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition=$cate_ids eq $v1.g_categorys 
+
+[ 2017-04-23T11:17:48+08:00 ] ::1 /school/index.php/Home/Goods/goods_update.html?g_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0969s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `categorys` WHERE `c_pid` = 3  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined index: g_category G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Use of undefined constant g_categorys - assumed 'g_categorys' G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 78 行.
+NOTIC: [8] Undefined variable: new_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 94 行.
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\41e4d56d0abc6c94c684bfaae9f68330.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.252676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.252922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+

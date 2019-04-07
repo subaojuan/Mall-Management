@@ -1,0 +1,69 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+ <li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	管理员列表
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('admin_add')}>  >添加管理员</a></button>
+  </div>
+  
+  
+  <div class="panel-body">
+
+    <table class="table table-striped table-hover ">
+   <tr >
+   	<th> 管理员图像</th>
+   	<th> 管理员账号</th>
+   	<th> 管理员昵称</th>
+   	<th> 管理员编辑</th>
+   	<th> 删除管理员</th>
+   </tr>
+    <foreach name="admin_data" item="val">
+    <if condition="$val['a_flag']  == 1 ">
+    	<tr class="danger" style="color:red">
+     <else /><tr>
+    </if>
+
+    
+   	<td>
+   		<img src="__PUBLIC__<{$val.a_picture}>"   alt="个人图像" class="img-thumbnail img-1" >
+   	</td>
+   	<td style="padding-top: 40px;"><{$val.a_account}>  </td>
+   	<td style="padding-top: 40px;"> <{$val.a_name}>  </td>
+   	<td style="padding-top: 40px;"> <a class="btn btn-primary" href=<{:U('Admins/admin_update?id='.$val['a_id'])}>  >编辑<a> </td>
+   	 <if condition="$val['a_flag']  ==1  ">
+    	<td style="padding-top: 40px;color: red;"> 不可删除</td>
+     <else /><td style="padding-top: 40px;">  <a class="btn btn-primary" href=<{:U('Admins/admin_del?id='.$val['a_id'])}> onclick="return confirm('您确定删除此管理员?');" >删除<a></td>
+    </if>
+   	
+   	
+   	
+   	
+   </tr>
+     </foreach>
+   
+<tr>
+   <td align="center" colspan="9"> 
+   	<{$page}>
+   </td>
+</tr>
+  </table>
+	
+
+  </div>
+  
+  
+</div>
+
+</div>
+
+

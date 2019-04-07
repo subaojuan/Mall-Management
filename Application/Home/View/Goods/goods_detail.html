@@ -1,0 +1,84 @@
+<layout name="layout"/>
+<div class="container">
+
+
+    <!--商品信息模块-->
+    <div class="row">
+        <!--左边商品图片-->
+        <div class="col-md-5">
+            <div class="img_div">
+                <img src=__PUBLIC__<{$data.g_logo}> class="detail_img">
+            </div>
+
+        </div>
+        <!--右边信息显示-->
+        <div class="col-md-6">
+            <ul class="list-group">
+                <li class="list-group-item goods_name"><{$data.g_name}></li>
+                <li class="list-group-item"><span>新旧程度:</span><span><{$news}></span></li>
+                <li class="list-group-item"><span>商品数量:</span><span><{$data.g_num}></span></li>
+                <li class="list-group-item"><span class="goods_pf">￥</span>
+                    <span class="goods_price"><{$data.g_price}></span>
+                </li>
+                <li class="list-group-item"><span>主分类:<{$data.g_category}></span>---------------<span>子分类:<{$data.g_categorys}></span>
+                </li>
+                <li class="list-group-item"><span>能否议价:</span><span><{$data.is_price}></span></li>
+                <li class="list-group-item"><span>所属学校:</span><span><{$data.g_school}></span></li>
+                <li class="list-group-item"><span>联系qq:</span><span><{$user_qq}></span></li>
+                <li class="list-group-item contact_btn">
+                    <button type="button" onclick="inform(<{$data.g_user}>);" class="btn btn-info">直通卖家</button>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!--商品详情-->
+
+    <div class="row">
+
+        <div class="col-md-10 desc">
+            <ul class="list-group">
+                <li class="list-group-item active">商品详情</li>
+                <li class="list-group-item" style="overflow-x: hidden;">
+                    <div style="width:100%;">
+                        <{$data.g_desc}>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.min.js"></script>
+<script src="__PUBLIC__/js/js.js"></script>
+<script>
+
+    function inform(id) {
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('Goods/informs', '', FALSE); ?>/id/" + id,
+            success: function (data) {
+
+                if (data == 'y') {
+                    alert('商品的卖家联系方式已发送至注册邮箱,请前去查看（注意邮件垃圾箱查找）');
+                } else {
+                    alert('获取失败！必须登录才可以获取卖家的联系方式！');
+                }
+            }
+        });
+    }
+
+</script>
+</html>

@@ -1,0 +1,298 @@
+<layout name="layout" />
+
+<style>
+.goods_img{
+	width:70px;
+	height:70px;
+}
+.table tr td{
+	text-align: center;
+	
+}	
+.dele{
+	margin-top: 26px;
+	color: red;
+	font-size: 20px;
+}
+
+.num,.current{
+        border: 1px solid #428bca;
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.prev,.next{
+        border: 1px solid #428bca;
+    display: inline-block;
+    margin-left: 5px;
+    width: 60px;
+}
+
+
+</style>	
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+  <li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+  
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">商品列表</div>
+  <div class="panel-body">
+  <form action="__ACTION__" method="get" name="searchform">
+   	<div class="col-lg-6 search-2" >
+   		
+
+        <div class="col-lg-8" style="margin-left: 0px;">
+    <div class="input-group">    
+      <input type="text" name="searchinfo" id="searchtext" style="width:400px" class="form-control" placeholder="输入商品名">
+      <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary" id="bt1" >搜索</button>
+      </span>
+    </div>
+  
+    </div>
+  </div>
+  
+  
+<ul class="nav nav-list" > 
+     <li class="divider"></li>  
+</ul>
+<hr class="hr"/>
+
+ 
+  <div class="row search-3"  style="margin-left: 3px;">
+  	
+ 
+  	<!--新旧程度-->
+  	 <div class="col-md-4">
+  		<label>新旧程度</label>
+        <select name="g_new" class="search-1">
+             <option value="0" >选择新旧程度</option>
+                <foreach  name="new_data" item="v">
+                	
+                	 <option value=<{$v.gn_id}> <if condition="$g_new_type eq $v['gn_id']">selected=selected</if> ><{$v.gn_name}></option> 
+		   		</foreach>	
+                         
+        </select>
+    </div>
+    <!--是否议价-->
+    <div class="col-md-4">
+  	<label>能否议价</label>	
+        <select name="is_price" class="search-1">
+        	 <option value='-1' selected="selected"> 选择是否议价</option>
+        	 <option value='1'  <if condition="$is_price_type eq 1 "> selected=selected</if>  >可以议价</option>                       
+             <option value='2'  <if condition="$is_price_type eq 2 ">selected=selected</if> >不可议价</option>
+        </select>
+    </div>
+  	<div class="col-md-4" >
+  	 		<label>时间前后</label>
+  		<select name="g_time" class="search-1">
+  			<option value="0" selected=selected>选择时间顺序</option>
+             <option value="desc" <if condition="$g_time_type eq 'desc' ">selected=selected</if>  >从近到远</option>
+             <option value="asc"   <if condition="$g_time_type eq 'asc' ">selected=selected</if> >从远到近</option>                       
+        </select>
+  	</div>
+  	
+  </div>
+<div class="row search-3"  style="margin-left: 3px;">
+
+  	<!--价格从低到高-->
+  	<div class="col-md-4" >
+  		<label>价格高低</label>
+  		<select name="g_price" class="search-1">
+  			<option value="0" selected=selected>选择价格顺序</option>
+             <option value="desc" <if condition="$g_price_type eq 'desc' ">selected=selected</if>>从高到低</option>
+             <option value="asc" <if condition="$g_price_type eq 'asc' ">selected=selected</if> >从低到高</option>                       
+        </select>
+  	</div>
+  	<div class="col-md-4" >
+  	<label>学校名称</label>
+  	<select name="school_id" class="search-1" >
+            <option value="0" selected=selected>选择学校名称</option>
+             <option value="2" <if condition="$g_school_id eq 2 ">selected=selected</if> >西安工业大学</option> 
+             <option value="3" <if condition="$g_school_id eq 3 ">selected=selected</if> >陕西科技大学</option> 
+             <option value="4" <if condition="$g_school_id eq 4 ">selected=selected</if> >西安医学院</option> 
+        </select>
+  	</div>
+  	<div class="col-md-4">
+  		<!--分类查询-->
+  		<!--主分类-->
+  		<label>商品分类</label>
+	    	<select name="g_category"   class="select1" id="selects" >
+	            <option value="0" selected="selected" >选择主分类</option>   
+	          <foreach name="cate_data1" item="v1">
+	            	<option value=<{$v1.c_id}> <if condition="$g_cate_id eq $v1['c_id'] ">selected=selected</if>  ><{$v1.c_name}></option> 	            	
+	          </foreach>  
+	        </select>
+	    	<select name="g_categorys"   class="select1" id="select2" >
+	            <option value="0" selected="selected">选择子分类</option> 
+	            
+	        </select>
+  	</div>
+</div>
+
+<div class="row search-3"  style="margin-left: 3px;margin-top: 20px;
+	margin-bottom: 5px;text-align: center;">
+	<div class="col-md-4">
+		<button type="submit" class="btn btn-primary" >
+			开始筛选
+		</button>
+	</div>
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<a  class="btn btn-primary" href=<{:U('Goods/goods_list')}> >
+			刷新商品
+		</a>
+	</div>
+  
+  
+</div>	
+<hr class="hr"/>
+ </form>
+  </div>
+
+
+
+  <!-- Table -->
+  <table class="table table-striped table-hover table-bordered">
+   <tr >
+   	<th> 商品ID</th>
+   	<th> 商品图片</th>
+   	<th> 商品名称</th>
+   	<th> 商品品牌</th>
+   	<th> 商品价格</th>
+   	<th> 商品数量</th>
+   	<th> 新旧程度</th>  	
+   	<th> 能否议价</th>
+   	<th> 出售学校</th>
+   	<th> 主分类</th>
+   	<th> 子分类</th>
+   	<th> 卖家ID</th>
+   	<th> 创建时间</th>
+   	<th> 删除商品</th>
+   </tr>
+   
+     <foreach name="data" item="val">
+    <tr id="gid<{$val.g_id}>" >
+   	<td>
+   		<{$val.g_id}>
+   		
+   	</td>
+   	<td> <img  src="__PUBLIC__<{$val['g_logo']}>" class="img-thumbnail goods_img " ></td>
+   	<td> <{$val.g_name}>  </td>
+   	<td> <{$val.g_brand}> </td>
+   	<td> <{$val.g_price}> </td>
+   	<td> <{$val.g_num}></td>
+   	<td>
+   		<foreach  name="new_data" item="v">
+   			<if condition="$val['g_new'] eq $v['gn_id']">
+   			<{$v.gn_name}>
+   			</if>
+   		</foreach>	
+   	</td>
+   	<td> 
+   	<if condition="$val['is_price'] eq 1">
+   	可以议价	
+   	<else/>	
+   	不可议价
+   	</if>
+   	
+   	</td>
+   	<td>
+       <foreach  name="sch_data" item="v1">
+   			<if condition="$val['g_school'] eq $v1['a_id']">
+   			<{$v1.a_name}>
+   			</if>
+   		</foreach>	
+   		
+   	</td>
+   	  	<td>
+       <foreach  name="cate_data" item="v2">
+   			<if condition="$val['g_category'] eq $v2['c_id']">
+   			<{$v2.c_name}>
+   			</if>
+   		</foreach>	
+   		
+   	</td>
+   	<td>
+       <foreach  name="cate_data" item="v3">
+   			<if condition="$val['g_categorys'] eq $v3['c_id']">
+   			<{$v3.c_name}>
+   			</if>
+   		</foreach>	
+   		
+   	</td>
+   	<td>
+   	<{$val.g_user}>
+   	</td>
+   	<td>
+   	<{$val.g_time}>
+   	</td>
+
+   	<td><span  onclick="delete_goods(<{$val.g_id}>);" class="glyphicon glyphicon-remove dele" aria-hidden="true"></span></td>
+   </tr >
+ </foreach>
+   
+<tr>
+   <td align="center" colspan="9"> 
+   	<{$page}>
+   </td>
+</tr>
+  </table>
+</div>
+	
+	
+</div>
+
+<script src="<{$Think.const.JS_URL}>jquery.js"></script>
+<script>
+	//删除商品
+	function delete_goods(g_id){
+
+			    $.ajax({
+				type:"get",
+				url:"<?php echo U('deletegoods', '', FALSE); ?>/g_id/"+g_id,			
+				success:function(data){
+				if(data=='y'){
+					var gid='#gid'+g_id;
+					$(gid).remove();
+					alert('商品删除成功!');
+					
+				}else{
+					alert('商品删除失败!');
+				}
+			   
+		}
+	});
+	}
+	
+		 $('#selects').change(function(){
+	 	
+	 	var cate_id=$(this).children('option:selected').val();//这就是selected的值 	 	
+	    $.ajax({
+				type:"get",
+				url:"<?php echo U('Home/Goods/ajaxGetCate', '', FALSE); ?>/cate_id/"+cate_id,
+				dataType:'json',
+				success:function(data){
+					var options="";
+			    $(data).each(function(k,v){
+			    	options+='<option value="'+v.c_id+'" >';
+			    	options+=v.c_name;
+			    	options+='</option>';
+			    	
+			    });
+			    
+			    $("#select2").html(options);
+		}
+	});
+	
+	 });
+	
+</script>	

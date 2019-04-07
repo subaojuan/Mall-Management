@@ -1,0 +1,65 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	添加管理员
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('admin_list')}> >管理员列表<a></button>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group cate_add" id="cate_add" >
+
+    <li class="list-group-item" >
+    	<label for="exampleInputName2">管理员账号:</label>
+    	<input type="text" name="a_account" class="form-control cate_input" id="" placeholder="请输入账号">
+    	 <label for="exampleInputName2" id="area_info1" class="tips"></label>
+    </li>
+        <li class="list-group-item" >
+    	<label for="exampleInputName2">管理员昵称:</label>
+    	<input type="text" name="a_name" class="form-control cate_input" id="" placeholder="请输入昵称">
+    	 <label for="exampleInputName2" id="area_info1" class="tips"></label>
+    </li>
+    <li class="list-group-item" >
+    	<label for="exampleInputName2">管理员密码:</label>
+    	<input type="password" name="a_password" class="form-control cate_input"  placeholder="请输入密码">
+    	 <label for="exampleInputName2" id="area_info1" class="tips"></label>
+    </li>
+     <li class="list-group-item" >
+    	<label for="exampleInputName2">确认密码:</label>
+    	<input type="password" name="a_checkpwd" class="form-control cate_input" placeholder="请输入确认密码">
+    	 <label for="exampleInputName2" id="area_info1" class="tips"></label>
+    </li>
+    
+    <li class="list-group-item" >
+    	<label for="exampleInputName2" style="margin-left:-200px;">管理员图片:</label>
+    	<input type="file" name="a_picture" class="form-control picture" />	
+    </li>
+    
+    
+    
+     <li class="list-group-item"> 
+    	
+  <button type="button" class="btn btn-info" id="add_school">添加管理员</button>	
+   <label for="exampleInputName2" id="area_info2" class="tips"></label>
+     </li>
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+
+

@@ -1,0 +1,68 @@
+<layout name="layout" />
+<style>
+.null_div{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    color: #9C27B0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+.index_img{
+	width: 750px;
+ height: 330px;
+}
+  .prev,.next{
+		border: 1px solid #428bca;
+	    display: inline-block;
+	    margin-left: 5px;
+	    width: 60px;	
+	    height: 24px;
+	}
+	
+	.num,.current{
+		border: 1px solid #428bca;
+	    width: 40px;
+	    height: 24px;
+	    display: inline-block;
+	    margin-left: 5px;
+	}
+</style>
+
+<!--专区结束-->
+<!--最新求购-->
+    <div class="row h_help" >
+
+
+<div class="list-group h_hd">
+
+  <foreach name="data" item="v">
+  <a style="margin-top: 10px;" class="list-group-item list-group-item-warning" href=<{:U('HelpGoods/hg_detail?hg_id='.$v['h_id'])}> >
+    <span class="pull-left span1"><i class="glyphicon glyphicon-heart" aria-hidden="true"></i>
+    
+    <foreach name="adata" item="val">
+    <if   condition="$val.a_id eq $v['h_school']"  >
+             <{$val.a_name}>
+
+    </if>
+      
+   </foreach>
+
+     </span>
+    <span class="span2" ><{$v.h_name}></span>
+    <span class="pull-right span3"><{$v.h_time}></span>
+  </a>
+  </foreach>
+
+</div>
+
+<div style="text-align: center;margin-top: 15px;">
+
+<{$page}>
+</div>	
+
+</div>
+
+
+  <script src="<{$Think.const.JS_URL}>jquery.js"></script> 

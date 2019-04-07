@@ -1,0 +1,171 @@
+<layout name="layout" />
+
+<style>
+.goods_img{
+	width:70px;
+	height:70px;
+}
+.table tr td{
+	text-align: center;
+	
+}	
+.dele{
+
+	color: red;
+	font-size: 20px;
+}
+
+.num,.current{
+        border: 1px solid #428bca;
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.prev,.next{
+        border: 1px solid #428bca;
+    display: inline-block;
+    margin-left: 5px;
+    width: 60px;
+}
+
+
+</style>	
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+  <li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+  
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">求购列表</div>
+  <div class="panel-body">
+  <form action="__ACTION__" method="get">
+
+<ul class="nav nav-list" > 
+     <li class="divider"></li>  
+</ul>
+<hr class="hr"/>
+
+<div class="row search-3"  style="margin-left: 3px;">
+
+  	 	<div class="col-md-6" >
+  	 		<label>时间前后</label>
+  		<select name="h_time" class="search-1">
+  			<option value="0" selected=selected>选择时间顺序</option>
+             <option value="desc" <if condition="$h_time_type eq 'desc' ">selected=selected</if>  >从近到远</option>
+             <option value="asc"   <if condition="$h_time_type eq 'asc' ">selected=selected</if> >从远到近</option>                       
+        </select>
+  	</div>
+  	
+  	<div class="col-md-6" >
+  	<label>学校名称</label>
+  	<select name="h_school" class="search-1" >
+            <option value="0" selected=selected>选择学校名称</option>
+             <option value="2" <if condition="$h_school_id eq 2 ">selected=selected</if> >西安工业大学</option> 
+             <option value="3" <if condition="$h_school_id eq 3 ">selected=selected</if> >陕西科技大学</option> 
+             <option value="4" <if condition="$h_school_id eq 4 ">selected=selected</if> >西安医学院</option> 
+        </select>
+  	</div>
+
+</div>
+
+<div class="row search-3"  style="margin-left: 3px;margin-top: 20px;
+	margin-bottom: 5px;text-align: center;">
+	<div class="col-md-12">
+		<button type="submit" class="btn btn-primary" >
+			开始筛选
+		</button>
+	</div>
+
+  
+  
+</div>	
+<hr class="hr"/>
+ </form>
+  </div>
+
+
+
+  <!-- Table -->
+  <table class="table table-striped table-hover table-bordered">
+   <tr >
+   	<th> 求购ID</th>
+   	<th> 求购名称</th>
+   	<th> 求购价格</th>
+   	<th> 求购数量</th>
+   	<th> 求购学校</th>
+   	<th> 求购用户ID</th>
+   	<th> 求购时间</th>
+   	<th> 删除商品</th>
+   </tr>
+   
+     <foreach name="data" item="val">
+    <tr id="hid<{$val.h_id}>" >
+   	<td>
+   		<{$val.h_id}>
+   		
+   	</td>
+   	<td> <{$val.h_name}>  </td>
+   	<td> <{$val.h_price}> </td>
+   	<td> <{$val.h_num}></td>
+
+   	<td>
+       <foreach  name="sch_data" item="v1">
+   			<if condition="$val['h_school'] eq $v1['a_id']">
+   			<{$v1.a_name}>
+   			</if>
+   		</foreach>	
+   		
+   	</td>
+   	<td>
+   	<{$val.user_id}>
+   	</td>
+   	<td>
+   	<{$val.h_time}>
+   	</td>
+
+   	<td><span  onclick="delete_hgs(<{$val.h_id}>);" class="glyphicon glyphicon-remove dele" aria-hidden="true"></span></td>
+   </tr >
+ </foreach>
+   
+<tr>
+   <td align="center" colspan="9"> 
+   	<{$page}>
+   </td>
+</tr>
+  </table>
+</div>
+	
+	
+</div>
+
+<script src="<{$Think.const.JS_URL}>jquery.js"></script>
+<script>
+	//删除商品
+	function delete_hgs(h_id){
+
+			    $.ajax({
+				type:"get",
+				url:"<?php echo U('deletehgs', '', FALSE); ?>/h_id/"+h_id,			
+				success:function(data){
+				if(data=='y'){
+					var hid='#hid'+h_id;
+					$(hid).remove();
+					alert('求购删除成功!');
+					
+				}else{
+					alert('求购删除失败!');
+				}
+			   
+		}
+	});
+	}
+
+	
+</script>	

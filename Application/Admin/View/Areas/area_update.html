@@ -1,0 +1,41 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">编辑学校名称</div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group cate_add" id="cate_add" >
+ 	
+    <li class="list-group-item" >
+    	<label for="exampleInputName2">分类名称:</label>
+    	<input type="text" name="a_name" class="form-control cate_input" id="exampleInputName2" value="<{$data.a_name}>" >
+    	<input type="hidden" name="a_id" value="<{$data.a_id}>">
+    </li>
+    
+     <li class="list-group-item"> 
+    	
+  <button type="submit" class="btn btn-info">修改学校名称</button>	
+    </li>
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+
+
+
+

@@ -1,0 +1,17 @@
+[ 2017-05-18T11:54:21+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.076429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.675701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.675893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043577s ]
+

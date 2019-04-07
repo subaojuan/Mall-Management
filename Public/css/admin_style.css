@@ -1,0 +1,200 @@
+html{     
+    overflow-x: hidden;     
+       
+}   
+.header{
+	  border-bottom: 1px solid rgba(255,255,255,0.15);
+    min-height: 50px;
+    position: relative;
+    padding-right: 7px;
+    height: 50px;
+    background-color: #438eb9;
+    width: 100%;
+   position: fixed;
+   right: 0;
+   left: 0;  
+   z-index: 1030;
+}
+.content-left{
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+} 
+.content-left,.content-right{
+	 height: 600px;	
+	 
+}
+ .list-1 li a{
+ 	color: #DB950A;
+ }
+
+.list-b1,.list-b2,.list-b3{
+	border: none;
+	
+}
+.list-b3{
+	
+  float: right;	
+}
+
+.list-b2{
+width: auto;
+text-align: center;
+text-align: left;
+}
+
+
+.search-1{
+	height:34px;
+	margin-bottom: 5px;
+}
+.search-2{
+	width:500px;
+}
+.search-3{
+	margin-top: -5px;
+	margin-bottom: -15px;
+}
+.search-4{
+	margin-top: -10px;
+	
+}
+
+.list-1{
+	margin-left:30px;
+	min-width: 135px;
+	text-align: center;
+}
+.list-2{
+	margin-top: 5px;
+}
+.img-1{
+	width: 80px;
+	height: 90px;
+	margin-left: 5px;
+}
+
+.img-info{
+	height: 5px;
+	width:110px;
+	text-align: center;
+	line-height: 5px;
+	margin-left: -20px;
+	margin-top:8px
+}
+
+.img-info-1{
+	margin-top:-15px
+}
+
+.nav-1{
+	border: 1px solid #CCCCCC;
+}
+.nav-2{
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.btn-default-1{
+	color:#2196F3;
+	
+}
+.btn-default-1:hover{
+	background-color: white;
+	color:#2196F3;
+}
+.hr{
+	border: 0.1px solid #CCCCCC;
+}
+
+.cons{
+	
+	color:#2196F3;
+}
+ .blue{
+	background-color: #C6DBF2;
+}
+
+#cate_ul li a{
+	color:white;
+		text-decoration:none;
+}
+.cate_add li{
+	
+	text-align: center;
+}
+.cate_input{
+	display: inline;
+width:200px;
+}
+
+.navbt{
+	margin-right: 20px;
+	margin-top: -7px;
+}
+
+.navbt a{
+	color:white;
+	text-decoration:none;
+}
+.tips{
+	color: red;
+
+}
+.picture{
+	width: 200px;
+    margin-left: 600px;
+    margin-top: -33px;
+    border: none;
+    }
+
+.nick{
+	color:#e91e3a;
+	font-size:15px;
+
+}
+.logout{
+	margin-top:-10px;
+	width:110px;
+	margin-left:-18px
+}
+.logo{
+	height: 48px;
+	margin-left: 10px;
+}
+.logo_h{
+	height: 48px;
+	margin-left: 0px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+.time{
+	color: white;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.emali{
+	font-size: 28px;
+	color: white;
+	height: 30px;
+
+}
+
+#num{
+  
+	color: white;
+	font-size: 10px;
+	background-color: red;
+	margin-left: -40px;
+
+}
+.btn_emali{
+	margin-top: 12px;
+	margin-left: 10px;
+	height: 30px;
+  background-color: #438EB9; 
+}
+
+.char{
+	height: 300px;
+}

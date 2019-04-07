@@ -1,0 +1,72 @@
+<layout name="layout" />
+<style>
+.imgs{
+	width:750px;
+	height:330px;
+	
+}	
+	
+</style>	
+
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	设置轮播图
+    <a class="btn btn-primary navbar-right navbt"href=<{:U('picture_show')}> >轮播图列表</a>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group" >
+
+	<li class="list-group-item" style="text-align: center;" >
+	  <div  id="preview" class="item">
+      <img id="img0"  class="imgs" src="" >     
+	  </div>
+	  
+      <p> <input type="file"  name="url"  id="file0">
+      	<input type="hidden"  name="flag" value="n" />
+      	<button type="submit" class="btn btn-info">添加轮播图</button></p>
+	</li>
+
+
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/ueditor/third-party/jquery.min.js"></script>
+
+<script>
+$("#file0").change(function(){
+	var objUrl = getObjectURL(this.files[0]) ;
+	console.log("objUrl = "+objUrl) ;
+	if (objUrl) {
+		$("#img0").attr("src", objUrl) ;
+	}
+}) ;
+//建立一個可存取到該file的url
+function getObjectURL(file) {
+	var url = null ; 
+	if (window.createObjectURL!=undefined) { // basic
+		url = window.createObjectURL(file) ;
+	} else if (window.URL!=undefined) { // mozilla(firefox)
+		url = window.URL.createObjectURL(file) ;
+	} else if (window.webkitURL!=undefined) { // webkit or chrome
+		url = window.webkitURL.createObjectURL(file) ;
+	}
+	return url ;
+}	
+</script>

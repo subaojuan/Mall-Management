@@ -1,0 +1,108 @@
+
+<layout name="layout" />
+<style>
+.prev,.next{
+	border: 1px solid #428bca;
+    display: inline-block;
+    margin-left: 5px;
+    width: 60px;	
+}
+.dele{
+	margin-top: 5px;
+	color: red;
+	font-size: 20px;
+}
+.num,.current{
+	border: 1px solid #428bca;
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}	
+.notread{
+	color: red;
+}	
+.read{
+	color: green;s
+}	
+</style>
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+  <li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+  
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	<span>公告列表</span>
+  	<a   class="btn btn-info dropdown-toggle pull-right" href=<{:U('tips_add')}> >
+    添加公告
+    </a>
+  </div>
+  <!-- Table -->
+  <table class="table table-striped table-hover">
+   <tr >
+   	<th> 公告主题</th>
+   	<th> 公告时间</th>
+   	<th> 查看公告</th>
+   	<th> 修改公告</th>
+   	<th> 删除公告</th>
+   </tr>
+   
+     <foreach name="data" item="val">
+    <tr id="tid<{$val.id}>" >
+   	<td> <{$val.title}>  </td>
+   	<td> <{$val.time}> </td>
+   	<td>
+	  <a  class="btn btn-success dropdown-toggle" href=<{:U('tips_detail?id='.$val['id'])}>  >
+	  查看公告
+	  </a>   		
+   	</td>
+   	<td>
+	  <a  class="btn btn-warning dropdown-toggle" href=<{:U('tips_update?id='.$val['id'])}>  >
+	修改公告
+      </a>	
+   	</td>
+   	<td><span  onclick="delete_tip(<{$val.id}>);" class="glyphicon glyphicon-remove dele" aria-hidden="true"></span></td>
+   </tr>
+     </foreach>  
+<tr>
+   <td align="center" colspan="9"> 
+   	<{$page}>
+   </td>
+</tr>
+  </table>
+</div>
+
+	
+</div>
+<script src="<{$Think.const.JS_URL}>jquery.js"></script>
+<script>
+//删除邮件
+function delete_tip(id){
+
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('delete_tip', '', FALSE); ?>/id/"+id,			
+				success:function(data){
+				if(data=='y'){
+					var tid='#tid'+id;
+					$(tid).remove();
+					alert('公告删除成功!');
+					
+				}else{
+					alert('公告删除失败!');
+				}
+			   
+		}
+	});
+	
+}
+
+
+</script>	

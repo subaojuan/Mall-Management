@@ -1,0 +1,3356 @@
+[ 2017-05-04T10:53:25+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002442s ]
+
+[ 2017-05-04T10:53:26+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+
+[ 2017-05-04T10:53:26+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-05-04T10:53:30+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2017-05-04T10:53:33+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0756s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0346s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0638s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-05-04T10:56:46+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002471s ]
+
+[ 2017-05-04T10:56:46+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-05-04T10:56:47+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+
+[ 2017-05-04T10:56:50+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002711s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.1133s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0422s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2017-05-04T10:58:39+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001917s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004457s ]
+
+[ 2017-05-04T10:58:39+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-05-04T10:58:39+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002474s ]
+
+[ 2017-05-04T10:58:43+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0661s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0620s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0727s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2017-05-04T10:58:52+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.1187s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 10:58:51' WHERE `gu_id` = 2 [ RunTime:0.9509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2017-05-04T10:59:04+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0567s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 10:59:03' WHERE `gu_id` = 2 [ RunTime:1.2328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2017-05-04T10:59:09+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0535s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 10:59:08' WHERE `gu_id` = 2 [ RunTime:0.2806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2017-05-04T10:59:09+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004046s ]
+
+[ 2017-05-04T10:59:09+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+
+[ 2017-05-04T10:59:10+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-05-04T10:59:14+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0663s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0572s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-05-04T10:59:20+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0756s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 10:59:19' WHERE `gu_id` = 6 [ RunTime:0.5821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2017-05-04T10:59:21+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2017-05-04T10:59:21+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+
+[ 2017-05-04T10:59:22+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-05-04T10:59:25+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0624s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0365s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 16 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-05-04T10:59:28+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0672s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 10:59:28' WHERE `gu_id` = 6 [ RunTime:0.6919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-05-04T10:59:30+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0825s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0576s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 16 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0878s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2017-05-04T10:59:31+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0612s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 10:59:31' WHERE `gu_id` = 2 [ RunTime:0.1454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2017-05-04T10:59:32+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0624s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 10:59:32' WHERE `gu_id` = 3 [ RunTime:0.1181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2017-05-04T10:59:34+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0798s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 10:59:34' WHERE `gu_id` = 9 [ RunTime:0.1865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2017-05-04T10:59:35+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0718s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0594s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 10 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001895s ]
+
+[ 2017-05-04T10:59:37+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0778s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0675s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 16 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2017-05-04T10:59:38+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.1220s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0393s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 10 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2017-05-04T10:59:39+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0668s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0411s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002197s ]
+
+[ 2017-05-04T11:00:57+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2017-05-04T11:00:57+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-05-04T11:00:57+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-05-04T11:01:00+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0599s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0401s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 16 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-05-04T11:01:04+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0664s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 11:01:04' WHERE `gu_id` = 7 [ RunTime:0.0910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002498s ]
+
+[ 2017-05-04T11:01:06+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0790s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 11:01:06' WHERE `gu_id` = 3 [ RunTime:0.2247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2017-05-04T11:01:37+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015236s ]
+
+[ 2017-05-04T11:01:37+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+
+[ 2017-05-04T11:01:37+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+
+[ 2017-05-04T11:01:40+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0582s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0438s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 16 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2017-05-04T11:01:44+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0602s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 11:01:43' WHERE `gu_id` = 9 [ RunTime:0.1248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2017-05-04T11:03:40+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2017-05-04T11:03:40+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+
+[ 2017-05-04T11:03:40+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+
+[ 2017-05-04T11:03:43+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0539s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0365s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2017-05-04T11:03:47+08:00 ] ::1 /school/index.php/Home/Users/soldOutGoods/gu_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0734s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='n',`gu_time`='2017-05-04 11:03:47' WHERE `gu_id` = 6 [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2017-05-04T11:05:50+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.228514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.228741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003448s ]
+
+[ 2017-05-04T11:05:50+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-05-04T11:05:51+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-05-04T11:05:53+08:00 ] ::1 /school/index.php/Home/Users/ajaxGetGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `goods` WHERE `g_user` = 1 ORDER BY g_time desc  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.1174s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: -1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 255 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2017-05-04T11:06:00+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0455s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 7 [ RunTime:0.0603s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 7 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2017-05-04T11:06:14+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0551s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 10 [ RunTime:0.2658s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 10 [ RunTime:0.1026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2017-05-04T11:06:19+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0461s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0489s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 7 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2017-05-04T11:06:23+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0592s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 8 [ RunTime:0.1478s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 8 [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-05-04T11:06:30+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0472s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0516s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 16 [ RunTime:0.0846s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 16 [ RunTime:0.0555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-05-04T11:06:33+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-05-04T11:06:37+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0615s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0445s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2017-05-04T11:06:41+08:00 ] ::1 /school/index.php/Home/Users/ajaxGetGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `goods` WHERE `g_user` = 1 ORDER BY g_time desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2017-05-04T11:06:46+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0527s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0354s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2017-05-04T11:06:51+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0594s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0353s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2017-05-04T11:06:53+08:00 ] ::1 /school/index.php/Home/Users/ajaxGetGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `goods` WHERE `g_user` = 1 ORDER BY g_time desc  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-05-04T11:06:56+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0732s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0442s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1257s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2017-05-04T11:08:21+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004608s ]
+
+[ 2017-05-04T11:08:22+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-05-04T11:08:22+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-05-04T11:08:25+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0584s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0385s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2017-05-04T11:08:30+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0526s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0360s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2017-05-04T11:09:35+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2017-05-04T11:09:36+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+
+[ 2017-05-04T11:09:36+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+
+[ 2017-05-04T11:09:38+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0547s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1082s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 15 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.1014s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-05-04T11:10:25+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004778s ]
+
+[ 2017-05-04T11:10:25+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+
+[ 2017-05-04T11:10:26+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-05-04T11:10:28+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0557s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0384s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-05-04T11:10:32+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.2039s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0374s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 17 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2017-05-04T11:11:23+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012448s ]
+
+[ 2017-05-04T11:11:23+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-05-04T11:11:24+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-05-04T11:11:28+08:00 ] ::1 /school/index.php/Home/Users/ajaxGetGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `goods` WHERE `g_user` = 1 ORDER BY g_time desc  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2017-05-04T11:11:32+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0454s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 5 [ RunTime:0.1228s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 5 [ RunTime:0.0541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2017-05-04T11:11:39+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0453s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 9 [ RunTime:0.1583s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 9 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-05-04T11:11:44+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0477s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0482s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 11 [ RunTime:0.1476s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 11 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2017-05-04T11:11:51+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0544s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0664s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 13 [ RunTime:0.0814s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 13 [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2017-05-04T11:11:56+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0465s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 15 [ RunTime:0.2126s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 15 [ RunTime:0.1663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2017-05-04T11:12:00+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteGoods/g_id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0697s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0469s ]
+SQL: DELETE FROM `goods` WHERE `g_id` = 17 [ RunTime:0.1371s ]
+SQL: DELETE FROM `goodsuser` WHERE `goods_id` = 17 [ RunTime:0.0721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2017-05-04T11:12:18+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-05-04T11:12:20+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0582s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0356s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1758s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-05-04T11:14:44+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.345209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003794s ]
+
+[ 2017-05-04T11:14:44+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+
+[ 2017-05-04T11:14:44+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+
+[ 2017-05-04T11:14:47+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0713s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0371s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2017-05-04T11:14:50+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0541s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 11:14:50' WHERE `gu_id` = 3 [ RunTime:0.0906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2017-05-04T11:14:55+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.1052s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0439s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.1049s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-05-04T11:14:58+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0560s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0363s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-05-04T11:15:00+08:00 ] ::1 /school/index.php/Home/Users/putAwayGoods/gu_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0597s ]
+SQL: UPDATE `goodsuser` SET `gu_flag`='y',`gu_time`='2017-05-04 11:15:00' WHERE `gu_id` = 7 [ RunTime:0.0561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2017-05-04T11:15:04+08:00 ] ::1 /school/index.php/Home/Users/ajaxPutAwayGoods/user_id/1/gu_flag/y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0548s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0362s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'y' ORDER BY gu_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 14 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-05-04T11:17:41+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2017-05-04T11:17:41+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+
+[ 2017-05-04T11:17:42+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+
+[ 2017-05-04T11:18:03+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2017-05-04T11:18:03+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-05-04T11:18:04+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+
+[ 2017-05-04T11:18:10+08:00 ] ::1 /school/index.php/Home/Helpgoods/hg_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+ERR: 无法加载控制器:Helpgoods
+
+[ 2017-05-04T11:18:42+08:00 ] ::1 /school/index.php/Home/Helpgoods/hg_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+ERR: 无法加载控制器:Helpgoods
+
+[ 2017-05-04T11:18:47+08:00 ] ::1 /school/index.php/Home/Helpgoods/hg_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 无法加载控制器:Helpgoods
+
+[ 2017-05-04T11:19:44+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000617s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001092s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.240385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2017-05-04T11:19:44+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+
+[ 2017-05-04T11:19:44+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-05-04T11:19:47+08:00 ] ::1 /school/index.php/Home/Users/hg_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2017-05-04T11:20:12+08:00 ] ::1 /school/index.php/Home/Users/hg_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.1175s ]
+SQL: INSERT INTO `helpgoods` (`h_name`,`h_num`,`h_price`,`h_desc`,`h_time`,`user_id`) VALUES ('你好宝贝   ','22','222','&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;222&lt;/p&gt;','2017-05-04 11:20:12','1') [ RunTime:0.4736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-05-04T11:20:14+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2017-05-04T11:20:14+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-05-04T11:20:15+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-05-04T11:20:17+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2017-05-04T11:20:40+08:00 ] ::1 /school/index.php/Home/Users/ajaxDeleteHgoods/h_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0388s ]
+SQL: DELETE FROM `helpgoods` WHERE `h_id` = 2 [ RunTime:0.7952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2017-05-04T11:21:02+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.1072s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2017-05-04T11:21:05+08:00 ] ::1 /school/index.php/Home/Users/hg_update.html?h_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003289s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `helpgoods` WHERE `h_id` = 1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2017-05-04T11:21:12+08:00 ] ::1 /school/index.php/Home/Users/hg_update.html?h_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.1348s ]
+SQL: UPDATE `helpgoods` SET `h_name`='书籍',`h_num`='23',`h_price`='22.00',`h_desc`='&lt;p&gt;	&amp;nbsp; &amp;nbsp;		 &lt;/p&gt;&lt;p&gt;	&amp;nbsp; &amp;nbsp;		 &lt;/p&gt;&lt;p&gt;	&amp;nbsp; &amp;nbsp;		 &lt;/p&gt;&lt;p&gt; 
+	&amp;nbsp; &amp;nbsp;		 才方法 
+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0001.gif&quot; _src=&quot;http://img.baidu.com/hi/jx2/j_0001.gif&quot;/&gt;&lt;/p&gt;',`h_time`='2017-05-04 11:21:11' WHERE `h_id` = 1 [ RunTime:0.1048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-05-04T11:21:13+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004573s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002181s ]
+
+[ 2017-05-04T11:21:13+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-05-04T11:21:13+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+
+[ 2017-05-04T11:21:18+08:00 ] ::1 /school/index.php/Home/Users/ajaxHelpGoods/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `helpgoods` WHERE `user_id` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-05-04T12:52:45+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003505s ]
+
+[ 2017-05-04T12:52:45+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+
+[ 2017-05-04T12:52:46+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-05-04T19:22:45+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.407109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.407379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2017-05-04T19:22:45+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-05-04T19:22:46+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-05-04T19:23:28+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2017-05-04T19:23:28+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-05-04T19:23:29+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-05-04T19:23:59+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000585s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.332744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2017-05-04T19:23:59+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+
+[ 2017-05-04T19:24:00+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+
+[ 2017-05-04T19:25:07+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002188s ]
+
+[ 2017-05-04T19:25:07+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001700s ]
+
+[ 2017-05-04T19:25:08+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-05-04T19:25:11+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2017-05-04T19:25:11+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+
+[ 2017-05-04T19:25:12+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-05-04T19:25:31+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-05-04T19:25:31+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-05-04T19:25:32+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+
+[ 2017-05-04T19:25:40+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000689s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.259962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2017-05-04T19:25:40+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002832s ]
+
+[ 2017-05-04T19:25:41+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-05-04T19:26:23+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002154s ]
+
+[ 2017-05-04T19:26:23+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-05-04T19:26:24+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-05-04T19:27:02+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001858s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2017-05-04T19:27:03+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-05-04T19:27:03+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-05-04T19:27:52+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002573s ]
+
+[ 2017-05-04T19:27:52+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+
+[ 2017-05-04T19:27:53+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+
+[ 2017-05-04T19:28:18+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.465249s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.465895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041812s ]
+
+[ 2017-05-04T19:28:18+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+
+[ 2017-05-04T19:28:19+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-05-04T19:32:54+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002064s ]
+
+[ 2017-05-04T19:32:54+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-05-04T19:32:54+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+
+[ 2017-05-04T19:33:24+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-05-04T19:33:24+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+
+[ 2017-05-04T19:33:24+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001850s ]
+
+[ 2017-05-04T19:33:37+08:00 ] ::1 /school/index.php/Home/Users/ajaxSoldOutGoods/user_id/1/gu_flag/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0540s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0441s ]
+SQL: SELECT `gu_id`,`goods_id`,`gu_time` FROM `goodsuser` WHERE `users_id` = 1 AND `gu_flag` = 'n' ORDER BY gu_time desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `goodsnew` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `goodsnew`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: data1 G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 199 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 199 行.
+NOTIC: [8] Undefined variable: datas G:\htdocs\school\Application\Home\Controller\UsersController.class.php 第 216 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2017-05-04T19:35:12+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2017-05-04T19:35:13+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004343s ]
+
+[ 2017-05-04T19:35:13+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+
+[ 2017-05-04T19:35:42+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002603s ]
+
+[ 2017-05-04T19:35:42+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+
+[ 2017-05-04T19:35:42+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+
+[ 2017-05-04T19:35:54+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-05-04T19:35:54+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-05-04T19:35:54+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-05-04T19:37:04+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2017-05-04T19:37:04+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+
+[ 2017-05-04T19:37:04+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+
+[ 2017-05-04T19:38:12+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003017s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.206400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-05-04T19:38:12+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-05-04T19:38:13+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-05-04T19:38:23+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2017-05-04T19:38:23+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-05-04T19:38:23+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-05-04T19:39:14+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.203066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2017-05-04T19:39:14+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-05-04T19:39:14+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-05-04T19:40:23+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002916s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.221834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002404s ]
+
+[ 2017-05-04T19:40:23+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+
+[ 2017-05-04T19:40:23+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+
+[ 2017-05-04T19:42:59+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2017-05-04T19:42:59+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+
+[ 2017-05-04T19:42:59+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-05-04T19:45:37+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2017-05-04T19:45:37+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+
+[ 2017-05-04T19:45:37+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-05-04T19:52:01+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002349s ]
+
+[ 2017-05-04T19:52:01+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+
+[ 2017-05-04T19:52:01+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-05-04T19:52:08+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000658s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2017-05-04T19:52:08+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+
+[ 2017-05-04T19:52:08+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2017-05-04T19:52:11+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2017-05-04T19:52:12+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+
+[ 2017-05-04T19:52:12+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-05-04T19:52:15+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2017-05-04T19:52:16+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+
+[ 2017-05-04T19:52:16+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+
+[ 2017-05-04T19:52:20+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2017-05-04T19:52:20+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-05-04T19:52:20+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-05-04T19:52:26+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2017-05-04T19:52:26+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+
+[ 2017-05-04T19:52:26+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+
+[ 2017-05-04T19:56:39+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2017-05-04T19:56:40+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+
+[ 2017-05-04T19:56:40+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+
+[ 2017-05-04T19:56:44+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2017-05-04T19:56:44+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+
+[ 2017-05-04T19:56:44+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-05-04T19:56:49+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000920s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001418s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-05-04T19:56:49+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+
+[ 2017-05-04T19:56:50+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+
+[ 2017-05-04T19:58:52+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 105 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2017-05-04T19:58:52+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004252s ]
+
+[ 2017-05-04T19:58:52+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003703s ]
+
+[ 2017-05-04T19:59:37+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 105 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002511s ]
+
+[ 2017-05-04T19:59:37+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-05-04T19:59:37+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-05-04T20:00:33+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 105 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002437s ]
+
+[ 2017-05-04T20:00:33+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+
+[ 2017-05-04T20:00:33+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+
+[ 2017-05-04T20:01:25+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 105 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010649s ]
+
+[ 2017-05-04T20:01:25+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-05-04T20:01:26+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-05-04T20:05:45+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000767s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 106 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 111 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002328s ]
+
+[ 2017-05-04T20:05:45+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-05-04T20:05:45+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+
+[ 2017-05-04T20:06:22+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 106 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 111 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2017-05-04T20:06:22+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-05-04T20:06:22+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+
+[ 2017-05-04T20:06:48+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002747s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002300s ]
+
+[ 2017-05-04T20:06:49+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+
+[ 2017-05-04T20:06:49+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-05-04T20:11:41+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000707s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2017-05-04T20:11:41+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+
+[ 2017-05-04T20:11:41+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-05-04T20:12:04+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2017-05-04T20:12:04+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+
+[ 2017-05-04T20:12:04+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-05-04T20:18:01+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 126 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007170s ]
+
+[ 2017-05-04T20:18:01+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-05-04T20:18:02+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+
+[ 2017-05-04T20:18:34+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 126 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2017-05-04T20:18:34+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-05-04T20:18:34+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001587s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010083s ]
+
+[ 2017-05-04T20:19:04+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001532s ]
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 126 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2017-05-04T20:19:04+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+
+[ 2017-05-04T20:19:04+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-05-04T20:19:22+08:00 ] ::1 /school/index.php/Home/Users/user_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000728s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: sch_data G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 126 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Home\2f4a68bea95a835f51869101ab6d5f95.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2017-05-04T20:19:22+08:00 ] ::1 /school/index.php/Home/Users/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+
+[ 2017-05-04T20:19:23+08:00 ] ::1 /school/index.php/Home/Users/person_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002510s ]
+

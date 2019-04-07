@@ -1,0 +1,60 @@
+<layout name="layout" />
+ <link href="__PUBLIC__/ueditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	添加公告
+    <a class="btn btn-primary navbar-right navbt"href=<{:U('tips_show')}> >公告列表</a>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group" id="cate_add" >
+	   <li>
+	        <li class="list-group-item" >
+	    	<label for="exampleInputName2">公告主题:</label>
+	    	<input type="text" name="title" class="form-control " id="" placeholder="请输入公告">
+	    	 
+	    </li>
+	 
+	   <li class="list-group-item" >
+	    	<label for="exampleInputName2">公告内容:</label>
+	    	<textarea id="myEditor" name="content"></textarea>
+	    </li>
+    
+    
+     <li class="list-group-item"> 
+    	
+  <button type="submit" class="btn btn-info">添加公告</button>	
+   <label for="exampleInputName2" id="area_info2" class="tips"></label>
+     </li>
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+    <script type="text/javascript" src="__PUBLIC__/ueditor/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+<script>
+		UM.getEditor('myEditor',{
+	 	initialFrameWidth:"100%",
+		initialFrameHeight:400
+	 	
+	 });
+</script>

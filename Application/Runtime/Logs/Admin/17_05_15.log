@@ -1,0 +1,2994 @@
+[ 2017-05-15T00:00:02+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.2068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-15T00:00:29+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0594s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 238 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 239 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2017-05-15T00:00:36+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/%24val%5B%22id%22%5D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005755s ]
+
+[ 2017-05-15T00:04:32+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/%24val%5B%22id%22%5D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2017-05-15T00:04:39+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 238 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 239 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003197s ]
+
+[ 2017-05-15T00:05:04+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006481s ]
+
+[ 2017-05-15T00:11:04+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0801s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1154s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003743s ]
+
+[ 2017-05-15T00:12:13+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0518s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0508s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2017-05-15T00:14:40+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 238 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 239 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005678s ]
+
+[ 2017-05-15T00:19:21+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005878s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0564s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005675s ]
+
+[ 2017-05-15T00:24:38+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+
+[ 2017-05-15T00:25:00+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2017-05-15T00:25:05+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0496s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.1864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-05-15T00:25:24+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2017-05-15T00:26:04+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000725s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002363s ]
+
+[ 2017-05-15T00:26:07+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0471s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.2007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-05-15T00:26:57+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006038s ]
+
+[ 2017-05-15T00:27:44+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003833s ]
+
+[ 2017-05-15T00:27:47+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0510s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:0.0874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-05-15T00:28:10+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2017-05-15T00:29:04+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2017-05-15T00:29:38+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2017-05-15T00:29:44+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0566s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:1.1546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-05-15T00:30:12+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-05-15T00:30:37+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0583s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2017-05-15T00:30:40+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0634s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0490s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:0.1137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2017-05-15T00:30:47+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0422s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.1224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2017-05-15T00:30:55+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0587s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.1396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-05-15T00:31:19+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1336s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.1937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-05-15T00:34:46+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004780s ]
+
+[ 2017-05-15T00:34:47+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2017-05-15T00:35:05+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2017-05-15T00:35:44+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0685s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2017-05-15T00:36:20+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1136s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0466s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:0.0536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-05-15T00:36:51+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0939s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006293s ]
+
+[ 2017-05-15T00:36:54+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1517s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.0956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2017-05-15T00:36:57+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0411s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.1409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-05-15T00:39:32+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0525s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008057s ]
+
+[ 2017-05-15T00:39:36+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0546s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:0.1134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-05-15T00:39:39+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0693s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0572s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2017-05-15T00:39:42+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-05-15T00:40:26+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0491s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.0941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2017-05-15T00:40:33+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1188s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0451s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2017-05-15T00:51:52+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0617s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0580s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006833s ]
+
+[ 2017-05-15T00:52:31+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0637s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0532s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2017-05-15T00:52:42+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0485s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0422s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-05-15T00:52:56+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0547s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0529s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-05-15T00:57:08+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0480s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0471s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0484s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`) VALUES ('18710643957@163.com','搜索','字数不能订单') [ RunTime:0.1542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001691s ]
+
+[ 2017-05-15T00:57:09+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007637s ]
+
+[ 2017-05-15T00:58:41+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002896s ]
+
+[ 2017-05-15T00:58:47+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0574s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0601s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2017-05-15T00:58:56+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1310s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0565s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0481s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`) VALUES ('18710643957@163.com','水水水水','字数不能超过200个水水水水字') [ RunTime:0.0882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-05-15T00:58:57+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008023s ]
+
+[ 2017-05-15T01:04:52+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003461s ]
+
+[ 2017-05-15T01:05:00+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.1340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002905s ]
+
+[ 2017-05-15T01:05:03+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0506s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0437s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-05-15T01:05:11+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0699s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.2342s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.1365s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`,`e_time`) VALUES ('18710643957@163.com','订单','字数不能超过20的  订单0个字','2017-05-15 01:05:11') [ RunTime:0.2246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-05-15T01:05:13+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-05-15T01:12:03+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005506s ]
+
+[ 2017-05-15T01:12:06+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0586s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-05-15T01:12:10+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0488s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0457s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001800s ]
+
+[ 2017-05-15T01:12:32+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0507s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0487s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0485s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`,`e_time`) VALUES ('18710643957@163.com','快快快','已经收到你的邮件','2017-05-15 01:12:30') [ RunTime:0.0671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-05-15T01:12:34+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003488s ]
+
+[ 2017-05-15T13:22:42+08:00 ] ::1 /school/index.php/Admin/Admins/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.492563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.492810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-05-15T13:22:46+08:00 ] ::1 /school/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.547861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.548040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001973s ]
+
+[ 2017-05-15T13:23:28+08:00 ] ::1 /school/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `admins` WHERE `a_account` = 'admin070' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-05-15T13:23:30+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003565s ]
+
+[ 2017-05-15T13:25:35+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004756s ]
+
+[ 2017-05-15T13:25:44+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0855s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002903s ]
+
+[ 2017-05-15T17:46:01+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.056564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056732s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.684713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.684869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.132790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.132903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060813s ]
+
+[ 2017-05-15T17:52:21+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.329278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004652s ]
+
+[ 2017-05-15T18:00:41+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2017-05-15T18:00:46+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2017-05-15T18:01:46+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004429s ]
+
+[ 2017-05-15T18:01:49+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:02:02+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:02:04+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:02:05+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:02:05+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:02:06+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:03:19+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:04:59+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:05:00+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:05:00+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:05:01+08:00 ] ::1 /school/index.php/Admin/Emails/eamils_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+ERR: 非法操作:eamils_show
+
+[ 2017-05-15T18:05:10+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0960s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2017-05-15T18:05:14+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 264 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002100s ]
+
+[ 2017-05-15T18:06:32+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 262 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 285 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2017-05-15T18:13:03+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0603s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm_time' in 'order clause'
+
+[ 2017-05-15T18:13:33+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 267 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 271 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 267 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 271 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 267 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 271 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 267 行.
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004743s ]
+
+[ 2017-05-15T18:16:29+08:00 ] ::1 /school/index.php/Admin/Emails/look_mes/m_id/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: 非法操作:look_mes
+
+[ 2017-05-15T18:22:17+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0749s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001881s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002121s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.231649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004468s ]
+
+[ 2017-05-15T18:23:17+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0555s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2017-05-15T18:23:32+08:00 ] ::1 /school/index.php/Admin/Emails/delete_email/e_id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-05-15T18:25:29+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0729s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003552s ]
+
+[ 2017-05-15T18:25:38+08:00 ] ::1 /school/index.php/Admin/Emails/delete_email/e_id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0544s ]
+SQL: DELETE FROM `emails` WHERE `e_id` = 9 [ RunTime:0.0477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-05-15T18:27:59+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002152s ]
+
+[ 2017-05-15T18:30:54+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0553s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2017-05-15T18:31:04+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0489s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0517s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-05-15T18:31:18+08:00 ] ::1 /school/index.php/Admin/Messages/send_email/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0599s ]
+SQL: SELECT `m_user` FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0603s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0658s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`,`e_time`) VALUES ('18710643957@163.com','嘎嘎嘎','字数不能超过方法  方法200个字','2017-05-15 18:31:14') [ RunTime:0.1281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-05-15T18:31:19+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003159s ]
+
+[ 2017-05-15T18:31:28+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2017-05-15T18:31:40+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0413s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.1323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-05-15T18:32:08+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0491s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.1134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-05-15T18:32:09+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0570s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 3 [ RunTime:0.1699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2017-05-15T18:32:14+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0398s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 4 [ RunTime:0.0980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-05-15T18:32:18+08:00 ] ::1 /school/index.php/Admin/Messages/look_mes/m_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `messages` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0483s ]
+SQL: SELECT `u_account` FROM `users` WHERE `u_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `messages` SET `m_flag`='已阅' WHERE `id` = 5 [ RunTime:0.3960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2017-05-15T18:32:27+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2017-05-15T18:33:58+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2017-05-15T18:34:02+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2017-05-15T18:34:04+08:00 ] ::1 /school/index.php/Admin/Emails/look_email/e_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0803s ]
+SQL: SELECT * FROM `emails` WHERE `e_id` = 7 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2017-05-15T18:34:07+08:00 ] ::1 /school/index.php/Admin/Emails/look_email/e_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `emails` WHERE `e_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001961s ]
+
+[ 2017-05-15T18:34:09+08:00 ] ::1 /school/index.php/Admin/Emails/look_email/e_id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.1525s ]
+SQL: SELECT * FROM `emails` WHERE `e_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-05-15T18:34:34+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0652s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007414s ]
+
+[ 2017-05-15T18:34:37+08:00 ] ::1 /school/index.php/Admin/Emails/look_email/e_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `emails` WHERE `e_id` = 7 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-05-15T18:35:28+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.1349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2017-05-15T18:35:30+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005050s ]
+
+[ 2017-05-15T18:36:57+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0597s ]
+SQL: INSERT INTO `emails` (`e_user`,`e_title`,`e_content`,`e_time`) VALUES ('18710643957@163.com','nihao ','今天吃饭了吗','2017-05-15 18:36:56') [ RunTime:0.0960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-05-15T18:36:58+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2017-05-15T18:37:46+08:00 ] ::1 /school/index.php/Admin/Emails/emails_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `emails` [ RunTime:0.0628s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emails` LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\EmailsModel.class.php 第 33 行.
+SQL: SELECT * FROM `emails` ORDER BY `e_time` desc LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\936856ae9684309675d9fc81465f0320.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007949s ]
+
+[ 2017-05-15T18:37:54+08:00 ] ::1 /school/index.php/Admin/Messages/message_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.0496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `messages` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where G:\htdocs\school\Application\Admin\Model\MessagesModel.class.php 第 25 行.
+SQL: SELECT * FROM `messages` ORDER BY `m_time` desc LIMIT 0,4   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\83d4799b5403aa64469a7fc19010beae.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004513s ]
+
+[ 2017-05-15T18:37:58+08:00 ] ::1 /school/index.php/Admin/Messages/send_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+NOTIC: [8] Undefined index: id G:\htdocs\school\Application\Admin\Controller\MessagesController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: u_account G:\htdocs\school\Application\Runtime\Cache\Admin\fe9188474170ab73bd5e77ae7ec54fa2.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2017-05-15T19:15:41+08:00 ] ::1 /school/index.php/Admin/Users/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.289095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.289244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004858s ]
+
+[ 2017-05-15T19:15:52+08:00 ] ::1 /school/index.php/Admin/Users/user_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 5,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002506s ]
+
+[ 2017-05-15T19:15:56+08:00 ] ::1 /school/index.php/Admin/Users/user_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 10,5   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2017-05-15T19:18:15+08:00 ] ::1 /school/index.php/Admin/Users/user_list/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 15,5   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2017-05-15T19:18:20+08:00 ] ::1 /school/index.php/Admin/Users/user_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 10,5   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-05-15T19:26:28+08:00 ] ::1 /school/index.php/Admin/Users/user_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: order G:\htdocs\school\Application\Admin\Model\UsersModel.class.php 第 31 行.
+SQL: SELECT * FROM `users` LIMIT 10,5   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2017-05-15T23:36:16+08:00 ] ::1 /school/index.php/Admin/Admins/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.1083s ]
+SQL: SELECT * FROM `admins`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\fa7115e32824dc84031f77db44590d15.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005450s ]
+
+[ 2017-05-15T23:42:18+08:00 ] ::1 /school/index.php/Admin/Admins/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `admins`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\fa7115e32824dc84031f77db44590d15.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009426s ]
+
+[ 2017-05-15T23:42:21+08:00 ] ::1 /school/index.php/Admin/Tips/tips_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2017-05-15T23:42:39+08:00 ] ::1 /school/index.php/Admin/Tips/tips_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 269 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 270 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 271 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 288 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-05-15T23:44:10+08:00 ] ::1 /school/index.php/Admin/Tips/tips_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 269 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 270 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 271 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 288 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002992s ]
+
+[ 2017-05-15T23:48:36+08:00 ] ::1 /school/index.php/Admin/Tips/tips_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 269 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 270 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 271 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 292 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007331s ]
+
+[ 2017-05-15T23:52:27+08:00 ] ::1 /school/index.php/Admin/Tips/tips_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 269 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 270 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 271 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 292 行.
+NOTIC: [8] Undefined variable: page G:\htdocs\school\Application\Runtime\Cache\Admin\7772b3e85661db90a8d871ac18e3ac66.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008016s ]
+
+[ 2017-05-15T23:52:29+08:00 ] ::1 /school/index.php/Admin/Tips/tips_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2017-05-15T23:55:19+08:00 ] ::1 /school/index.php/Admin/Tips/tips_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 172 行.
+NOTIC: [8] Undefined variable: title G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 258 行.
+NOTIC: [8] Undefined variable: title1 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004517s ]
+
+[ 2017-05-15T23:58:11+08:00 ] ::1 /school/index.php/Admin/Tips/tips_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 172 行.
+NOTIC: [8] Undefined variable: title G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 258 行.
+NOTIC: [8] Undefined variable: title1 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2017-05-15T23:59:39+08:00 ] ::1 /school/index.php/Admin/Tips/tips_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Undefined variable: picture G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 33 行.
+NOTIC: [8] Undefined variable: nickname G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 36 行.
+NOTIC: [8] Undefined variable: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 172 行.
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 243 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 244 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\c3d818219842a5325a7cbf533b3335fc.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+

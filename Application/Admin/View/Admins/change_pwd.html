@@ -1,0 +1,60 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	编辑管理员
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('admin_list')}> >管理员列表<a></button>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__ACTION__" method="post">
+  <ul class="list-group cate_add" >
+        <li class="list-group-item" >
+    	<label for="exampleInputName2">管理员昵称:</label>
+    	<select name="a_id" class="search-1" id="admin_select">
+            <option value="0">选择管理员</option>
+            <foreach name="admin_data" item="val">
+            	
+            	<option value=<{$val.a_id}>  ><{$val.a_name}></option> 
+            	
+            </foreach>
+                
+        </select>
+        <label for="exampleInputName2" id="info1" class="tips"></label>
+    </li>
+    <li class="list-group-item" >
+<label for="exampleInputName2">新密码:</label>
+<input id="pwd1" type="password" name="a_password"  class="form-control cate_input" >
+
+    </li>
+    
+        <li class="list-group-item" >
+<label for="exampleInputName2">确认新密码:</label>
+<input id="pwd2" type="password" name="a_checkpwd" class="form-control cate_input"  >
+<label for="exampleInputName2" id="info2" class="tips" ></label>
+    </li>
+     <li class="list-group-item"> 
+    	
+  <button type="button" id="btn_pwd" class="btn btn-info" >修改密码</button>	
+   <label for="exampleInputName2" id="area_info2" class="tips"></label>
+     </li>
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+
+

@@ -1,0 +1,1195 @@
+[ 2017-04-18T18:24:48+08:00 ] ::1 /school/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2017-04-18T18:24:59+08:00 ] ::1 /school/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004331s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with that of Think\Model::_before_delete() G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `admins` WHERE `a_account` = 'admin070' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-04-18T18:25:01+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001798s ]
+
+[ 2017-04-18T18:27:02+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2017-04-18T18:27:38+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2017-04-18T18:29:27+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2017-04-18T18:29:35+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0557s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004778s ]
+
+[ 2017-04-18T18:31:13+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0587s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002217s ]
+
+[ 2017-04-18T18:31:25+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2017-04-18T18:32:37+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.316441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2017-04-18T18:32:43+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2017-04-18T18:32:54+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.2367s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2017-04-18T18:33:00+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-04-18T18:34:41+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0020s ]
+
+[ 2017-04-18T18:36:11+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-04-18T18:36:15+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2017-04-18T18:36:27+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005692s ]
+
+[ 2017-04-18T18:39:15+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002565s ]
+
+[ 2017-04-18T18:39:40+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2017-04-18T18:39:48+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002392s ]
+
+[ 2017-04-18T18:39:59+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0466s ]
+SQL: INSERT INTO `areas` (`a_pid`,`a_name`) VALUES ('1','xs') [ RunTime:0.1817s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `areas` WHERE `a_pid` = 1 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-04-18T18:40:01+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: a_flag G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2017-04-18T18:45:52+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2017-04-18T18:46:03+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000902s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2017-04-18T18:46:12+08:00 ] ::1 /school/index.php/Admin/Areas/area_del/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0457s ]
+SQL: SELECT `a_pid` FROM `areas` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `areas` WHERE `a_pid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: DELETE FROM `areas` WHERE `a_id` = 5 [ RunTime:0.2028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-04-18T18:46:14+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2017-04-18T18:46:19+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0801s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004553s ]
+
+[ 2017-04-18T18:46:39+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2017-04-18T18:50:39+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010324s ]
+
+[ 2017-04-18T18:51:09+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0613s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007377s ]
+
+[ 2017-04-18T18:53:50+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.223426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.223689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011407s ]
+
+[ 2017-04-18T18:56:01+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0706s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004781s ]
+
+[ 2017-04-18T18:56:36+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2017-04-18T18:56:44+08:00 ] ::1 /school/index.php/Admin/Admins/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with that of Think\Model::_before_delete() G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.0522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006018s ]
+
+[ 2017-04-18T18:59:11+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002919s ]
+
+[ 2017-04-18T18:59:17+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003655s ]
+
+[ 2017-04-18T19:04:32+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001324s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004992s ]
+
+[ 2017-04-18T19:09:13+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009191s ]
+
+[ 2017-04-18T19:09:59+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003387s ]
+
+[ 2017-04-18T19:10:14+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002376s ]
+
+[ 2017-04-18T19:10:29+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002494s ]
+
+[ 2017-04-18T19:11:01+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002328s ]
+
+[ 2017-04-18T19:12:23+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005819s ]
+
+[ 2017-04-18T19:13:56+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003956s ]
+
+[ 2017-04-18T19:14:07+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007632s ]
+
+[ 2017-04-18T19:14:16+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2017-04-18T19:14:27+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2017-04-18T19:14:34+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003789s ]
+
+[ 2017-04-18T19:14:43+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002596s ]
+
+[ 2017-04-18T19:15:03+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2017-04-18T19:15:21+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2017-04-18T19:15:30+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011357s ]
+
+[ 2017-04-18T19:16:38+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2017-04-18T19:16:55+08:00 ] ::1 /school/index.php/Admin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: nav1 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 193 行.
+NOTIC: [8] Undefined variable: nav2 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 194 行.
+NOTIC: [8] Undefined variable: nav3 G:\htdocs\school\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005570s ]
+

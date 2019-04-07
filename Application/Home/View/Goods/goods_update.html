@@ -1,0 +1,200 @@
+<layout name="layout" />
+	<style>
+		.select1{
+			height: 25px;
+		}
+	</style>
+
+<div class="container" style="margin-left: -18px;">
+	
+	<div class="panel panel-warning" >
+	  <div class="panel-heading">发布商品</div>
+	  <form enctype="multipart/form-data"  action="__SELF__" method="post">
+	  <ul class="list-group "  >	
+	  	<li class="list-group-item" >
+	       <label for="exampleInputName2" >商品logo:</label>
+	       <div id="preview">
+               <img id="imghead" border="0" src="__PUBLIC__<{$data.g_logo}>" width="220" height="210" onclick="$('#previewImg').click();">
+           </div>         
+           <input type="file"  name="g_logo" onchange="previewImage(this)" style="display: none;" id="previewImg">	    	
+	    </li>  
+	    <li class="list-group-item" >
+	   <label for="exampleInputName2">商品名称:</label>
+	    <input type="text" name="g_name" class="form-control cate_input" id="" value="<{$data.g_name}>">
+	    	
+	    </li>
+	        <li class="list-group-item" >
+	    	<label for="exampleInputName2">商品品牌:</label>
+	    	<input type="text" name="g_brand" class="form-control cate_input" id="" value="<{$data.g_brand}>">
+	    	 
+	    </li>
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">商品数量:</label>
+	    	<input type="text" name="g_num" class="form-control cate_input"  value="<{$data.g_num}>">
+	    	 
+	    </li>
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2" >商品分类:</label>
+	    	<select name="g_category"   class="select1" id="select1" >
+	            <option value="" >选择主分类</option>   
+	          <foreach name="cate_data1" item="v1">
+	          	
+	            	<option value=<{$v1.c_id}> 
+	            	<if condition="$cate_id eq $v1['c_id']"> 
+	            		selected=selected
+	            	</if> >
+	             <{$v1.c_name}>	         		
+	            </option> 	            	
+	          </foreach>  
+	        </select>
+	    	<select name="g_categorys"   class="select1" id="select2" >
+	            <option value="" >选择子分类</option> 
+	          <foreach name="cate_data2" item="v2">
+	          	
+	            	<option value=<{$v2.c_id}> 
+	            	<if condition="$cate_ids eq $v2['c_id']"> 
+	            		selected=selected
+	            	</if> >
+	             <{$v2.c_name}>	         		
+	            </option> 	            	
+	          </foreach>  
+	         
+	         
+	        </select>
+	    </li>
+	    
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">商品价格: <span style="color:red;"> 商品价格为空，即为免费商品哦...</span> </label>
+	    	<input type="text" name="g_price" class="form-control cate_input"  value="<{$data.g_price}>">
+	    	 
+	    </li>
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2" >新旧程度:</label>
+	    	<select name="g_new"   class="select1" id="select1" >
+	    	  <foreach name="new_data" item="v1">
+	            	<option value=<{$v1.gn_id}>
+	            		<if condition="$new_id eq $v1['gn_id']"> 
+	            		selected=selected
+	            	  </if>  >            		
+	            		<{$v1.gn_name}>
+	            	</option> 	            	
+	          </foreach> 
+	    		
+	                       
+	        </select>
+	    	
+	    </li>
+	     <li class="list-group-item" >
+	    	<label for="exampleInputName2" >能否议价:</label>
+	       <select name="is_price"   class="select1" id="select1" >
+	            <option value="1" <if condition="$is_id eq 1" >selected=selected</if> >可议价</option>  
+	            <option value="0" <if condition="$is_id eq 0" >selected=selected</if> >不可议价</option> 
+	        </select>
+	     </li>
+	     
+	     
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">商品描述:</label>
+	    	<textarea id="myEditor" name="g_desc"> 
+	    		<{$data.g_desc}>
+            </textarea>
+	    </li> 
+ 
+	     <li class="list-group-item" style="text-align: center;"> 
+	   <input type="hidden" name="g_id" value=<{$data.g_id}> ></input> 	
+	  <button type="submit" class="btn btn-warning" id="sale">更新商品</button>	
+	
+	     </li>
+	</ul>	
+	</form>
+		
+</div>
+</div>
+    <link href="__PUBLIC__/ueditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="__PUBLIC__/ueditor/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script type="text/javascript">
+	 UM.getEditor('myEditor',{
+	 	initialFrameWidth:"100%",
+		initialFrameHeight:400
+	 	
+	 });
+	 //监听主分类select事件
+	 $('#select1').change(function(){
+	 	var cate_id=$(this).children('option:selected').val();//这就是selected的值 	 	
+	    $.ajax({
+				type:"get",
+				url:"<?php echo U('ajaxGetCate', '', FALSE); ?>/cate_id/"+cate_id,
+				dataType:'json',
+				success:function(data){
+					var options="";
+			    $(data).each(function(k,v){
+			    	options+='<option value="'+v.c_id+'" >';
+			    	options+=v.c_name;
+			    	options+='</option>';
+			    	
+			    });
+			    
+			    $("#select2").html(options);
+		}
+	});
+	
+	 });
+	 
+	 
+	  //图片上传预览    IE是用了滤镜。
+        function previewImage(file)
+        {
+          var MAXWIDTH  = 220; 
+          var MAXHEIGHT = 210;
+          var div = document.getElementById('preview');
+          if (file.files && file.files[0])
+          {
+              div.innerHTML ='<img id=imghead onclick=$("#previewImg").click()>';
+              var img = document.getElementById('imghead');
+              img.onload = function(){
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width  =  rect.width;
+                img.height =  rect.height;
+//                 img.style.marginLeft = rect.left+'px';
+                img.style.marginTop = rect.top+'px';
+              }
+              var reader = new FileReader();
+              reader.onload = function(evt){img.src = evt.target.result;}
+              reader.readAsDataURL(file.files[0]);
+          }
+          else //兼容IE
+          {
+            var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            var src = document.selection.createRange().text;
+            div.innerHTML = '<img id=imghead>';
+            var img = document.getElementById('imghead');
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+          }
+        }
+        function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+            var param = {top:0, left:0, width:width, height:height};
+            if( width>maxWidth || height>maxHeight ){
+                rateWidth = width / maxWidth;
+                rateHeight = height / maxHeight;
+                
+                if( rateWidth > rateHeight ){
+                    param.width =  maxWidth;
+                    param.height = Math.round(height / rateWidth);
+                }else{
+                    param.width = Math.round(width / rateHeight);
+                    param.height = maxHeight;
+                }
+            }
+            param.left = Math.round((maxWidth - param.width) / 2);
+            param.top = Math.round((maxHeight - param.height) / 2);
+            return param;
+        }
+	</script>
+	

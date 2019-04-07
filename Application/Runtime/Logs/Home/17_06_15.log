@@ -1,0 +1,9 @@
+[ 2017-06-15T14:34:12+08:00 ] ::1 /school/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+ERR: 模板不存在:./Application/Home/View/Login/login.html
+

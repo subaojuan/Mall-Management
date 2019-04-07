@@ -1,0 +1,100 @@
+<layout name="layout" />
+	<style>
+		.select1{
+			height: 25px;
+		}
+		.btn-info{	
+		    background-color: rgba(230, 221, 173, 0.43);
+		    border: none;
+		    color: #3e8ea0;
+		}
+		.btn-info:hover{
+			 background-color: rgba(230, 221, 173, 0.43);
+			 color: blueviolet;
+		}
+		
+	</style>
+<div class="container" style="margin-left: -18px;">
+
+	
+	<div class="panel panel-warning" >
+	  <div class="panel-heading">
+	  	<a class="btn btn-info" href=<{:U('Users/user_show')}>  ><{$title}>  </a>
+	  	
+	  </div>
+	  
+	  <form enctype="multipart/form-data"  action="__SELF__" method="post">
+	  <ul class="list-group "  >	
+ 
+	    <li class="list-group-item" >
+	   <label for="exampleInputName2">求购名称:</label>
+	    <input type="text"  name="h_name" class="form-control cate_input" id="" placeholder="请输入商品名称" value=<{$hg_data[0].h_name}>  >
+	    	
+	    </li>
+
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">求购数量:</label>
+	    	<input type="text" name="h_num" class="form-control cate_input"  placeholder="请输入商品数量"  value=<{$hg_data[0].h_num}>  >
+	    	 
+	    </li>
+
+	    
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">求购价格:</label>
+	    	<input type="text"   name="h_price" class="form-control cate_input"  placeholder="请输入商品价格" value=<{$hg_data[0].h_price}> >
+	    	 
+	    </li>
+	    
+
+	    <li class="list-group-item" >
+	    	<label for="exampleInputName2">商品描述:</label>
+	    	<textarea id="myEditor" name="h_desc"> 
+	    		 <{$hg_data[0].h_desc}> 
+            </textarea>
+	    </li> 
+ 
+	     <li class="list-group-item" style="text-align: center;"> 
+	    <input type="hidden" name="h_id" value=<{$hg_data[0].h_id}> ></input> 		
+	  <button type="submit" class="btn btn-warning" id="sale">更新信息</button>		
+	     </li>
+	</ul>	
+	</form>
+	
+
+	
+</div>
+</div>
+    <link href="__PUBLIC__/ueditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="__PUBLIC__/ueditor/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script type="text/javascript">
+	 UM.getEditor('myEditor',{
+	 	initialFrameWidth:"100%",
+		initialFrameHeight:400
+	 	
+	 });
+	 //监听主分类select事件
+	 $('#select1').change(function(){
+	 	var cate_id=$(this).children('option:selected').val();//这就是selected的值 	 	
+	    $.ajax({
+				type:"get",
+				url:"<?php echo U('ajaxGetCate', '', FALSE); ?>/cate_id/"+cate_id,
+				dataType:'json',
+				success:function(data){
+					var options="";
+			    $(data).each(function(k,v){
+			    	options+='<option value="'+v.c_id+'" >';
+			    	options+=v.c_name;
+			    	options+='</option>';
+			    	
+			    });
+			    
+			    $("#select2").html(options);
+		}
+	});
+	
+	 });
+	 
+	</script>

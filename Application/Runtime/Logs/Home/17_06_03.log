@@ -1,0 +1,706 @@
+[ 2017-06-03T23:12:31+08:00 ] ::1 /school/index.php/Home/Users/user_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.102620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.915841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.916009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.153523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.153657s ]
+
+[ 2017-06-03T23:12:35+08:00 ] ::1 /school/index.php/Home/Login/showlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.505803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.506014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.123505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.123664s ]
+
+[ 2017-06-03T23:12:36+08:00 ] ::1 /school/index.php/Home/Login/checkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-06-03T23:12:55+08:00 ] ::1 /school/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1312s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.1016s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.1082s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.1713s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.1773s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0883s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0019s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0017s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0016s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.695708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.695847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-06-03T23:12:57+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2017-06-03T23:13:57+08:00 ] ::1 /school/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0569s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0753s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0503s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0527s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0532s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0019s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0018s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0016s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003931s ]
+
+[ 2017-06-03T23:13:58+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2017-06-03T23:14:03+08:00 ] ::1 /school/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0646s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0573s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0014s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0014s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003056s ]
+
+[ 2017-06-03T23:14:04+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-06-03T23:14:10+08:00 ] ::1 /school/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0728s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0729s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0653s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0519s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0472s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0722s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0020s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0016s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0019s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0014s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2017-06-03T23:14:10+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2017-06-03T23:14:16+08:00 ] ::1 /school/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0535s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0595s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0463s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0021s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0016s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0017s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0015s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.298778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.298978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2017-06-03T23:14:16+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2017-06-03T23:16:13+08:00 ] ::1 /school/index.php/Home/Login/showlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.257949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.258253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2017-06-03T23:16:14+08:00 ] ::1 /school/index.php/Home/Login/checkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2017-06-03T23:16:33+08:00 ] ::1 /school/index.php/Home/Login/check_email/email/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+ERR: 参数错误或者未定义:email
+
+[ 2017-06-03T23:25:57+08:00 ] ::1 /school/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [2048] Declaration of Home\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) G:\htdocs\school\Application\Home\Model\GoodsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0725s ]
+SQL: SHOW COLUMNS FROM `goodsuser` [ RunTime:0.0800s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0508s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0522s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.1905s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `picture` WHERE `flag` = 'y'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tips` ORDER BY time desc LIMIT 8   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0024s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 4 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 8 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 9 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `c_name` FROM `categorys` WHERE `c_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 2 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0015s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 3 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0014s ]
+SQL: SELECT `goods_id`,`gu_time` FROM `goodsuser` WHERE `gu_flag` = 'y' AND `school_id` = 4 ORDER BY gu_time desc LIMIT 10   [ RunTime:0.0014s ]
+SQL: SELECT `h_id`,`h_name`,`h_time`,`user_id`,`h_school` FROM `helpgoods` ORDER BY h_time desc LIMIT 8   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: y_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: s_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: g_data G:\htdocs\school\Application\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.317601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003862s ]
+
+[ 2017-06-03T23:25:57+08:00 ] ::1 /school/index.php/Home/Login/check_online
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+

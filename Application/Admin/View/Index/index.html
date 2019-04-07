@@ -1,0 +1,197 @@
+﻿<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+<div class="row">
+	<div id="main1" class="col-md-4 char"  >
+		
+	</div>
+	<div class="col-md-4 char"  id="main2">
+		
+	</div>
+	<div class="col-md-4 char"  id="main3">
+		
+	</div>
+
+
+</div>
+
+
+</div>
+<script src="<{$Think.const.JS_URL}>echarts.js"></script>
+<script>
+
+//学校注册用户数图表
+ // 基于准备好的dom，初始化echarts实例
+
+
+
+var r_gnum;
+var  r_knum;
+ var  r_ynum;
+var g_gnum;
+var  g_knum;
+ var  g_ynum;
+var h_gnum;
+var  h_knum;
+ var  h_ynum;
+
+
+
+                
+                        $.ajax({
+                                type:"get",
+                                url:"<?php echo U('Interface/get_register_num', '', FALSE); ?>",
+                            success:function(data){
+                              var data1=eval("("+data+")");
+                              r_gnum=data1.g;
+                              r_knum=data1.k;
+                              r_ynum=data1.y;
+
+        var myChart = echarts.init(document.getElementById('main1'));
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '高校注册人数'
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["西安工大","陕西科技大学","西安医学院"]
+            },
+            itemStyle: {   
+                //通常情况下：
+                normal:{  
+　　　　　　　　　　　　//每个柱子的颜色即为colorList数组里的每一项，如果柱子数目多于colorList的长度，则柱子颜色循环使用该数组
+                    color: function (params){
+                        var colorList = ['#F0BC29','#D84C29','#1C86EA'];
+                        return colorList[params.dataIndex];
+                    }
+                }},
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'bar',
+                data: [r_gnum, r_knum, r_ynum]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+                            }
+
+                        });
+
+
+
+                        $.ajax({
+                                type:"get",
+                                url:"<?php echo U('Interface/get_goods_num', '', FALSE); ?>",
+                            success:function(data){
+                              var data1=eval("("+data+")");
+                              g_gnum=data1.g;
+                              g_knum=data1.k;
+                              g_ynum=data1.y;
+//学校商品数图表
+ // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main2'));
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '高校商品数量'
+            },
+            tooltip: {},
+            legend: {
+                data:['商品数']
+            },
+            xAxis: {
+                data: ["西安工大","陕西科技大学","西安医学院"]
+            },
+            itemStyle: {   
+                //通常情况下：
+                normal:{  
+　　　　　　　　　　　　//每个柱子的颜色即为colorList数组里的每一项，如果柱子数目多于colorList的长度，则柱子颜色循环使用该数组
+                    color: function (params){
+                        var colorList = ['#F0BC29','#D84C29','#1C86EA'];
+                        return colorList[params.dataIndex];
+                    }
+                }},
+            yAxis: {},
+            series: [{
+                name: '商品数',
+                type: 'bar',
+                data: [g_gnum, g_knum, g_ynum]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+                            }
+
+                        });
+
+                        $.ajax({
+                                type:"get",
+                                url:"<?php echo U('Interface/get_help_num', '', FALSE); ?>",
+                            success:function(data){
+                              var data1=eval("("+data+")");
+                              h_gnum=data1.g;
+                              h_knum=data1.k;
+                              h_ynum=data1.y;
+        
+//学校求助数图表
+ // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main3'));
+
+       // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '高校求助数量'
+            },
+            tooltip: {},
+            legend: {
+                data:['商品数']
+            },
+            xAxis: {
+                data: ["西安工大","陕西科技大学","西安医学院"]
+            },
+            yAxis: {},
+            itemStyle: {   
+                //通常情况下：
+                normal:{  
+　　　　　　　　　　　　//每个柱子的颜色即为colorList数组里的每一项，如果柱子数目多于colorList的长度，则柱子颜色循环使用该数组
+                    color: function (params){
+                        var colorList = ['#F0BC29','#D84C29','#1C86EA'];
+                        return colorList[params.dataIndex];
+                    }
+                }},
+            series: [{
+                name: '商品数',
+                type: 'bar',
+                data: [h_gnum, h_knum, h_ynum]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+                            }
+
+                        });
+
+
+
+        
+
+
+
+</script>

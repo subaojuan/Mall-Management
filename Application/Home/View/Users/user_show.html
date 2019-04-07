@@ -1,0 +1,675 @@
+<layout name="layout"/>
+
+<style>
+    .nav_color {
+        color: #ff9800;
+    }
+
+    #per_info tr td {
+        border: none;
+    }
+</style>
+
+<div class="container ">
+    <div class="row user">
+        <div class="col-md-2">
+            <form enctype="multipart/form-data" method="post" action=<{:U('Users/change_userimg')}> >
+                <div id="user_photo" class="user_photo pull-right">
+                    <div id="preview">
+                        <img id="imghead" class="img-circle" src="__PUBLIC__<{$user_data.u_picture}>" width="220"
+                             height="210" onclick="$('#previewImg').click();" alt="点击修改图像"/>
+                    </div>
+                    <input type="hidden" name="u_id" value=<{$user_data['u_id']}> ></input>
+                    <input type="file" name="u_picture" onchange="previewImage(this)" style="display: none;"
+                           id="previewImg">
+                </div>
+            </form>
+        </div>
+
+        <div class="lines">
+        </div>
+
+        <div class="col-md-6">
+            <ul class="list-group user_infos">
+                <li class="list-group-item list-group-item-danger"><span>账户邮箱:</span><span><{$user_data['u_account']}>
+                </li>
+                <li class="list-group-item list-group-item-success">
+                    <span>昵称:</span><span><{$user_data['u_nickname']}></span></li>
+                <li class="list-group-item list-group-item-info"><span>注册时间:</span><span><{$user_data['u_time']}></li>
+                <li class="list-group-item list-group-item-warning"></span>当前商品总数:</span><span><{$goods_count}></li>
+            </ul>
+        </div>
+
+        <div class="lines">
+        </div>
+
+        <div class="col-md-3">
+            <div class="btn-group user_btn" role="group">
+                <a href=<{:U('Goods/goods_add')}> type="button" class="btn btn-warning publish_btn"
+                    style="margin-top:-20px;"><{$cre_goods}></a>
+                </br>
+                <a href=<{:U('Users/hg_add')}> type="button" class="btn btn-warning publish_btn"><{$help_goods}></a>
+                <a href=<{:U('Messages/showmsg')}> type="button" class="btn btn-warning publish_btn"><{$create_msg}></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12 user_show">
+            <ul class="nav nav-tabs navs">
+                <li id="usernav1" class=" usernav" role="presentation" class="active"><a class="nav_color"
+                                                                                         onfocus="this.blur();"><span>个人设置</span></a>
+                </li>
+                <li id="usernav2" onclick="getPutAwaygoods();" class=" usernav" role="presentation"><a class="nav_color"
+                                                                                                       onfocus="this.blur();">已上架商品</a>
+                </li>
+                <li id="usernav4" onclick="getgoods();" class=" usernav" role="presentation"><a class="nav_color"
+                                                                                                onfocus="this.blur();">商品仓库</a>
+                </li>
+                <li id="usernav3" onclick="getSoldOutgoods();" class=" usernav" role="presentation"><a class="nav_color"
+                                                                                                       onfocus="this.blur();">已下架商品</a>
+                </li>
+
+                <li id="usernav5" onclick="getHelpGoods();" class=" usernav" role="presentation"><a class="nav_color"
+                                                                                                    onfocus="this.blur();">求购商品信息</a>
+                </li>
+
+            </ul>
+            <!--个人设置模块-->
+
+            <div id="infonav1" style="display:block;text-align:center;">
+
+                <table class="table" id="per_info">
+                    <tr>
+                        <td>
+                            <label>
+                                <span>昵称:</span>
+                                <span id="infos1"><{$user_data['u_nickname']}></span>
+                                <input type="text" name="u_nickname" id="infosinput1" style="display:none"/>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <span>密码修改</span>
+                            </label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <span>QQ:</span>
+                                <span id="infos2"><{$user_data['u_qq']}></span>
+                                <input type="text" name="u_qq" id="infosinput2" style="display:none"/>
+                            </label>
+                        </td>
+
+                        <td>
+                            <label>
+                                <span>输入新密码:</span>
+
+                                <input type="password" name="u_password" id="u_password"/>
+                                <em style="display:none" id="pwd_error"></em>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <span>手机号:</span>
+                                <span id="infos4"><{$user_data['u_phone']}></span>
+                                <input type="text" name="u_phone" id="infosinput4" style="display:none"/>
+                            </label>
+                        </td>
+
+                        <td>
+                            <label>
+                                <span>确认新密码:</span>
+
+                                <input type="password" name="u_passwords" id="u_passwords"/>
+                                <em style="display:none" id="pwds_error"></em>
+                            </label>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td></td>
+                        <td>
+
+                            <button class="btn btn-warning" id='changepwd'>密码修改</button>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input id="changeOrderTime" type="button" value="修改" onclick="changeuser()"/>
+                                <button style="display:none" id="timeChangeOK">确定</button>
+                            </label>
+                        </td>
+
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+            <!--上架商品模块-->
+            <div id="infonav2" style="display:none">
+                <table class="table table-striped table-hover" id="putgoods">
+                </table>
+            </div>
+            <!--下架商品模块-->
+            <div id="infonav3" style="display:none">
+                <table class="table table-striped table-hover" id="outgoods">
+                </table>
+            </div>
+            <!--商品仓库-->
+
+            <div id="infonav4" style="display:block">
+                <table class="table table-striped table-hover" id="goods">
+                    <tr>
+                        <td align="center" colspan="9">
+                            <{$page}>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <!--求购信息模块-->
+            <div id="infonav5" style="display:none">
+                <table class="table table-striped table-hover" id="helpgoods">
+
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+</div>
+
+</body>
+<script src="<{$Think.const.JS_URL}>jquery.js"></script>
+<script>
+    //密码修改
+
+
+    $("#u_password").blur(function () {
+        var u_pwd = $("#u_password").val();
+        var u_pwds = $("#u_passwords").val();
+
+        if (u_pwd.length < 6) {
+
+            $("#pwd_error").html("新密码长度不能小于6位");
+            $("#pwd_error").css("display", 'block');
+
+        }
+
+        if (u_pwd.length > 16) {
+            $("#pwd_error").html("新密码长度不能大于16位");
+            $("#pwd_error").css("display", 'block');
+        }
+
+        if (u_pwd.length > 5 && u_pwd.length < 17) {
+            $("#pwd_error").css("display", 'none');
+        }
+
+    });
+
+
+    $("#u_passwords").blur(function () {
+        var u_pwd = $("#u_password").val();
+        var u_pwds = $("#u_passwords").val();
+
+        if (u_pwd.length > 5 && u_pwd.length < 17) {
+            $("#pwd_error").css("display", 'none');
+            if (u_pwd == u_pwds) {
+                $("#pwds_error").css("display", 'none');
+
+            } else {
+                $("#pwds_error").html("确认密码不一致");
+                $("#pwds_error").css("display", 'block');
+            }
+        }
+
+
+    });
+    $("#changepwd").click(function () {
+        var u_pwd = $("#u_password").val();
+        var u_pwds = $("#u_passwords").val();
+
+        //异步提交数据
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('Users/change_pwd', '', FALSE); ?>/u_pwd/" + u_pwd + "/u_pwds/" + u_pwds,
+            success: function (data) {
+
+                if (data == 'y') {
+                    alert('密码修改成功');
+                } else {
+                    alert('密码修改失败');
+                }
+
+            }
+
+        });
+
+    });
+
+
+    //个人 信息设置
+    function changeuser() {
+        var spanValue1 = $("#infos1").text();
+        var spanValue2 = $("#infos2").text();
+        var spanValue4 = $("#infos4").text();
+        $("#infosinput1").val(spanValue1);
+        $("#infosinput2").val(spanValue2);
+        $("#infosinput4").val(spanValue4);
+        $("#infosinput1").show();
+        $("#infosinput2").show();
+        $("#infosinput3").show();
+        $("#infosinput4").show();
+
+        $("#infos1").hide();
+        $("#infos2").hide();
+        $("#infos3").hide();
+        $("#infos4").hide();
+        $("#changeinfos").hide();
+        $("#timeChangeOK").show();
+    }
+    $("#timeChangeOK").click(function () {
+        var inputValue1 = $("#infosinput1").val();
+        var inputValue2 = $("#infosinput2").val();
+        var inputValue3 = $("#infosinput3 option:selected").text();
+        var inputValue3_val = $("#infosinput3").val();
+        var inputValue4 = $("#infosinput4").val();
+        $("#infos1").text(inputValue1);
+        $("#infos2").text(inputValue2);
+        $("#infos3").text(inputValue3);
+        $("#infos4").text(inputValue4);
+        $("#infosinput1").hide();
+        $("#infosinput2").hide();
+        $("#infosinput3").hide();
+        $("#infosinput4").hide();
+        $("#infos1").show();
+        $("#infos2").show();
+        $("#infos3").show();
+        $("#infos4").show();
+        $("#changeinfos").show();
+        $("#timeChangeOK").hide();
+
+        //异步提交数据
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('user_update', '', FALSE); ?>/u_nickname/" + inputValue1 + "/u_qq/" + inputValue2 + "/u_phone/" + inputValue4,
+            success: function (data) {
+                if (data == 'yes') {
+                    alert('个人信息修改成功');
+                } else {
+                    alert('个人信息修改失败');
+                }
+            }
+
+        });
+
+    });
+
+
+    $('#usernav1').click(function () {
+        $('#infonav1').css('display', 'block');
+        $('#infonav2').css('display', 'none');
+        $('#infonav3').css('display', 'none');
+        $('#infonav4').css('display', 'none');
+        $('#infonav5').css('display', 'none');
+    });
+
+    $('#usernav2').click(function () {
+        $('#infonav2').css('display', 'block');
+        $('#infonav1').css('display', 'none');
+        $('#infonav3').css('display', 'none');
+        $('#infonav4').css('display', 'none');
+        $('#infonav5').css('display', 'none');
+    });
+
+    $('#usernav3').click(function () {
+        $('#infonav3').css('display', 'block');
+        $('#infonav2').css('display', 'none');
+        $('#infonav1').css('display', 'none');
+        $('#infonav4').css('display', 'none');
+        $('#infonav5').css('display', 'none');
+    });
+
+    $('#usernav4').click(function () {
+
+        $('#infonav4').css('display', 'block');
+        $('#infonav2').css('display', 'none');
+        $('#infonav3').css('display', 'none');
+        $('#infonav1').css('display', 'none');
+        $('#infonav5').css('display', 'none');
+    });
+
+    $('#usernav5').click(function () {
+        $('#infonav5').css('display', 'block');
+        $('#infonav2').css('display', 'none');
+        $('#infonav3').css('display', 'none');
+        $('#infonav1').css('display', 'none');
+        $('#infonav4').css('display', 'none');
+    });
+
+
+    //创建函数动态获取当前用户的商品总数
+    function getgoods() {
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxGetGoods', '', FALSE); ?>",
+            dataType: 'json',
+            success: function (data) {
+
+                var infos = "<tr >";
+                infos += "<th> 商品图片</th>";
+                infos += "<th> 商品名称</th>";
+                infos += "<th> 商品品牌</th>";
+                infos += "<th> 商品数量</th>";
+                infos += "<th> 商品价格</th>";
+                infos += "<th> 新旧程度</th>";
+                infos += "<th> 能否议价</th>";
+                infos += "<th> 出售学校</th>";
+                infos += "<th> 创建时间</th>";
+                infos += "<th> 更新商品</th>";
+                infos += "<th> 删除商品</th></tr>";
+
+                $(data).each(function (k, v) {
+
+                    infos += "<tr id=delid" + v.g_id + ">";
+                    infos += "<td><img style='width:50px;height:50px;' src='__PUBLIC__" + v.g_logo + "'/></td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_name + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_brand + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_num + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_new + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.is_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_school + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_time + "</td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-info'  onclick='updateGoods(" + v.g_id + ");'>更新商品</button></td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-danger' id='g2' onclick='deleteGoods(" + v.g_id + ");'>删除商品</button></td>";
+                    infos += "</tr>";
+                });
+
+                $("#goods").html(infos);
+            }
+        });
+    }
+    //创建函数动态获取当前用户的已上架商品总数
+    function getPutAwaygoods() {
+
+
+        var gu_flag = 'y';
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxPutAwayGoods', '', FALSE); ?>/gu_flag/" + gu_flag,
+            dataType: 'json',
+            success: function (data) {
+
+                var infos = "<tr >";
+                infos += "<th> 商品图片</th>";
+                infos += "<th> 商品名称</th>";
+                infos += "<th> 商品品牌</th>";
+                infos += "<th> 商品数量</th>";
+                infos += "<th> 商品价格</th>";
+                infos += "<th> 新旧程度</th>";
+                infos += "<th> 能否议价</th>";
+                infos += "<th> 出售学校</th>";
+                infos += "<th> 上架时间</th>";
+                infos += "<th> 下架商品</th></tr>";
+
+                $(data).each(function (k, v) {
+
+                    infos += "<tr id=outid" + v.gu_id + ">";
+                    infos += "<td><img style='width:50px;height:50px;' src='__PUBLIC__" + v.g_logo + "'/></td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_name + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_brand + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_num + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_new + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.is_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_school + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.gu_time + "</td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-warning'  onclick='soldOut(" + v.gu_id + ");'>下架商品</button></td>";
+                    infos += "</tr>";
+                });
+
+                $("#putgoods").html(infos);
+            }
+        });
+    }
+    //创建函数动态获取当前用户的已下架商品总数
+    function getSoldOutgoods() {
+
+
+        var gu_flag = 'n';
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxSoldOutGoods', '', FALSE); ?>/gu_flag/" + gu_flag,
+            dataType: 'json',
+            success: function (data) {
+                //alert('dd');
+                var infos = "<tr >";
+                infos += "<th> 商品图片</th>";
+                infos += "<th> 商品名称</th>";
+                infos += "<th> 商品品牌</th>";
+                infos += "<th> 商品数量</th>";
+                infos += "<th> 商品价格</th>";
+                infos += "<th> 新旧程度</th>";
+                infos += "<th> 能否议价</th>";
+                infos += "<th> 出售学校</th>";
+                infos += "<th> 下架时间</th>";
+                infos += "<th> 上架商品</th></tr>";
+
+                $(data).each(function (k, v) {
+
+                    infos += "<tr id=putid" + v.gu_id + ">";
+                    infos += "<td><img style='width:50px;height:50px;' src='__PUBLIC__" + v.g_logo + "'/></td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_name + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_brand + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_num + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_new + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.is_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.g_school + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.gu_time + "</td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-success' onclick='putAway(" + v.gu_id + ");'>上架商品</button></td>";
+                    infos += "</tr>";
+                });
+
+                $("#outgoods").html(infos);
+            }
+        });
+    }
+
+    //获取当前所有的求购商品
+    function getHelpGoods() {
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxHelpGoods', '', FALSE); ?>",
+            dataType: 'json',
+            success: function (data) {
+
+                var infos = "<tr >";
+                infos += "<th> 商品名称</th>";
+                infos += "<th> 商品数量</th>";
+                infos += "<th> 商品价格</th>";
+                infos += "<th> 求购时间</th>";
+                infos += "<th> 更新商品</th>";
+                infos += "<th> 删除商品</th></tr>";
+
+                $(data).each(function (k, v) {
+
+                    infos += "<tr id=hdid" + v.h_id + ">";
+                    infos += "<td style='padding-top:25px;'>" + v.h_name + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.h_num + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.h_price + "</td>";
+                    infos += "<td style='padding-top:25px;'>" + v.h_time + "</td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-warning'  onclick='update_hgoods(" + v.h_id + ");'>修改商品</button></td>";
+                    infos += "<td style='padding-top:15px;'><button class='btn btn-warning'  onclick='delete_hgoods(" + v.h_id + ");'>删除商品</button></td>";
+                    infos += "</tr>";
+                });
+
+                $("#helpgoods").html(infos);
+            }
+        });
+    }
+    //上架商品
+    function putAway(gu_id) {
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('putAwayGoods', '', FALSE); ?>/gu_id/" + gu_id,
+            success: function (data) {
+                if (data == 'yes') {
+                    var trd = "#putid" + gu_id;
+                    $(trd).remove();
+                } else {
+
+                    alert('上架商品失败');
+                }
+            }
+
+        });
+    }
+
+    //下架商品
+    function soldOut(gu_id) {
+
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('soldOutGoods', '', FALSE); ?>/gu_id/" + gu_id,
+            success: function (data) {
+                if (data == 'yes') {
+                    var trd = "#outid" + gu_id;
+                    $(trd).remove();
+
+                } else {
+
+                    alert('下架商品失败');
+                }
+            }
+
+        });
+    }
+
+    //删除商品
+    function deleteGoods(g_id) {
+
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxDeleteGoods', '', FALSE); ?>/g_id/" + g_id,
+            success: function (data) {
+                if (data == 'yes') {
+                    var trd = "#delid" + g_id;
+                    $(trd).remove();
+
+                } else {
+                    alert('删除商品失败');
+                }
+            }
+
+        });
+    }
+    //删除求购商品信息
+    function delete_hgoods(h_id) {
+        $.ajax({
+            type: "get",
+            url: "<?php echo U('ajaxDeleteHgoods', '', FALSE); ?>/h_id/" + h_id,
+            success: function (data) {
+                if (data == 'yes') {
+                    var trd = "#hdid" + h_id;
+                    $(trd).remove();
+                } else {
+                    alert('删除求购商品失败');
+                }
+            }
+
+        });
+
+    }
+
+
+    //更新商品仓库的商品信息
+    function updateGoods(g_id) {
+        location.href = "<{:U('Goods/goods_update')}>" + '?g_id=' + g_id;
+    }
+    //更细求购商品的信息
+    function update_hgoods(h_id) {
+
+        location.href = "<{:U('Users/hg_update')}>" + '?h_id=' + h_id;
+    }
+    //图片上传预览    IE是用了滤镜。
+    function previewImage(file) {
+        var MAXWIDTH = 150;
+        var MAXHEIGHT = 150;
+        var div = document.getElementById('preview');
+        if (file.files && file.files[0]) {
+            div.innerHTML = '<img id=imghead onclick=$("#previewImg").click()>';
+            var img = document.getElementById('imghead');
+            img.onload = function () {
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width = rect.width;
+                img.height = rect.height;
+//                 img.style.marginLeft = rect.left+'px';
+                img.style.marginTop = rect.top + 'px';
+            }
+            var reader = new FileReader();
+            reader.onload = function (evt) {
+                img.src = evt.target.result;
+            }
+            reader.readAsDataURL(file.files[0]);
+        }
+        else //兼容IE
+        {
+            var sFilter = 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            var src = document.selection.createRange().text;
+            div.innerHTML = '<img id=imghead>';
+            var img = document.getElementById('imghead');
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status = ('rect:' + rect.top + ',' + rect.left + ',' + rect.width + ',' + rect.height);
+            div.innerHTML = "<div id=divhead style='width:" + rect.width + "px;height:" + rect.height + "px;margin-top:" + rect.top + "px;" + sFilter + src + "\"'></div>";
+        }
+        $('form').submit();
+    }
+    function clacImgZoomParam(maxWidth, maxHeight, width, height) {
+        var param = {top: 0, left: 0, width: width, height: height};
+        if (width > maxWidth || height > maxHeight) {
+            rateWidth = width / maxWidth;
+            rateHeight = height / maxHeight;
+
+            if (rateWidth > rateHeight) {
+                param.width = maxWidth;
+                param.height = Math.round(height / rateWidth);
+            } else {
+                param.width = Math.round(width / rateHeight);
+                param.height = maxHeight;
+            }
+        }
+        param.left = Math.round((maxWidth - param.width) / 2);
+        param.top = Math.round((maxHeight - param.height) / 2);
+        return param;
+    }
+
+
+</script>
+</html>

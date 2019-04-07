@@ -1,0 +1,134 @@
+[ 2017-06-18T16:21:01+08:00 ] ::1 /school/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.237524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-06-18T16:21:04+08:00 ] ::1 /school/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-06-18T16:23:43+08:00 ] ::1 /school/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminsModel::_before_delete() should be compatible with Think\Model::_before_delete($options) G:\htdocs\school\Application\Admin\Model\AdminsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `admins` [ RunTime:0.1251s ]
+SQL: SELECT * FROM `admins` WHERE `a_account` = 'admin0701' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-06-18T16:23:45+08:00 ] ::1 /school/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.063404s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.063525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003933s ]
+
+[ 2017-06-18T16:23:48+08:00 ] ::1 /school/index.php/Admin/Interface/get_register_num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安工业大学' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `users` WHERE `u_school` = '6'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '陕西科技大学' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `users` WHERE `u_school` = '3'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安医学院' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `u_school` = '4'  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2017-06-18T16:23:49+08:00 ] ::1 /school/index.php/Admin/Interface/get_goods_num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0526s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安工业大学' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '陕西科技大学' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安医学院' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` WHERE `g_school` = 6 AND `g_flag` = 'y'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` WHERE `g_school` = 3 AND `g_flag` = 'y'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `g_school` = 4 AND `g_flag` = 'y'  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-06-18T16:23:50+08:00 ] ::1 /school/index.php/Admin/Interface/get_help_num
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0568s ]
+SQL: SHOW COLUMNS FROM `helpgoods` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安工业大学' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '陕西科技大学' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `areas` WHERE `a_name` = '西安医学院' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `helpgoods` WHERE `h_school` = 6  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `helpgoods` WHERE `h_school` = 3  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `helpgoods` WHERE `h_school` = 4  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+

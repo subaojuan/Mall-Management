@@ -1,0 +1,50 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	区域列表
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('area_add')}>  >添加学校</a></button>
+  </div>
+  
+  
+  <div class="panel-body">
+
+  <ul class="list-group" id="cate_ul" >
+	<foreach name="area_data" item="vo">
+		
+   <if condition="$vo['a_pid'] eq 0 && $vo['a_flag'] eq 'y' " >
+	<li class="list-group-item" style="background-color:#8EBFFA ;">   
+     <{$vo.a_name}>
+      	<foreach name="area_data" item="v1">
+      		<if condition="$v1['a_pid'] eq $vo['a_id'] " >
+      		  <li class="list-group-item" >   
+    <span class="badge"><a href=<{:U("area_del?id=".$v1['a_id'])}> onclick="return confirm('您确定删除此学校名称?');" >删除</a></span>
+    <span class="badge"><a href=<{:U("area_update?id=".$v1['a_id'])}>  >编辑</a></span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span class="glyphicon glyphicon-flag cons" aria-hidden="true"></span> 
+  <{$v1.a_name}>
+  </li> 		 
+      		</if>
+      		</foreach>      	
+      </li>     
+		</if>
+	</foreach>
+
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+

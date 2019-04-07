@@ -1,0 +1,1803 @@
+[ 2016-12-21T13:28:41+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.070431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070581s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0687s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.450548s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.450750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.057549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039075s ]
+
+[ 2016-12-21T19:50:07+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.080312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080491s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0618s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.817946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.818146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.055510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.050690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.050846s ]
+
+[ 2016-12-21T19:50:08+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015276s ]
+
+[ 2016-12-21T19:52:48+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0676s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2016-12-21T19:52:55+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2016-12-21T19:53:08+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003305s ]
+
+[ 2016-12-21T19:57:25+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002267s ]
+
+[ 2016-12-21T19:59:02+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2016-12-21T20:28:35+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002436s ]
+
+[ 2016-12-21T20:31:39+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0623s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003286s ]
+
+[ 2016-12-21T20:44:56+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: cate_data G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-12-21T20:51:59+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: cate_data G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2016-12-21T20:56:40+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 179 行.
+NOTIC: [8] Undefined index: c_pid G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 180 行.
+NOTIC: [8] Undefined index: c_id G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 181 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2016-12-21T20:58:14+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-12-21T21:01:49+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0663s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+NOTIC: [8] Undefined index: c_name G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005997s ]
+
+[ 2016-12-21T21:02:07+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1166s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002695s ]
+
+[ 2016-12-21T21:03:27+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004213s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014168s ]
+
+[ 2016-12-21T21:04:01+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-12-21T21:11:22+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1233s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Undefined index: a_flaf G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+NOTIC: [8] Use of undefined constant y - assumed 'y' G:\htdocs\school\Application\Runtime\Cache\Admin\dc9ecafbe13fc5dcc1c803425b07562c.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004792s ]
+
+[ 2016-12-21T21:11:47+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008569s ]
+
+[ 2016-12-21T21:13:32+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0736s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2016-12-21T21:13:36+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+ERR: 非法操作:area_add
+
+[ 2016-12-21T21:14:48+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+NOTIC: [8] Undefined variable: model G:\htdocs\school\Application\Admin\Controller\AreasController.class.php 第 35 行.
+
+[ 2016-12-21T21:14:53+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+NOTIC: [8] Undefined variable: model G:\htdocs\school\Application\Admin\Controller\AreasController.class.php 第 35 行.
+
+[ 2016-12-21T21:14:58+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+NOTIC: [8] Undefined variable: model G:\htdocs\school\Application\Admin\Controller\AreasController.class.php 第 35 行.
+
+[ 2016-12-21T21:15:17+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+ERR: 模板不存在:./Application/Admin/View/Areas/area_add.html
+
+[ 2016-12-21T21:15:58+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: cate_data G:\htdocs\school\Application\Runtime\Cache\Admin\fc9d408b9b79dbe412d5d1e343bfe457.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2016-12-21T21:17:26+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: cate_data G:\htdocs\school\Application\Runtime\Cache\Admin\fc9d408b9b79dbe412d5d1e343bfe457.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-21T21:17:47+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined variable: cate_data G:\htdocs\school\Application\Runtime\Cache\Admin\fc9d408b9b79dbe412d5d1e343bfe457.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2016-12-21T21:23:12+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `categorys` WHERE ( c_pid=0 )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: area_data G:\htdocs\school\Application\Runtime\Cache\Admin\fc9d408b9b79dbe412d5d1e343bfe457.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2016-12-21T21:24:23+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2016-12-21T21:24:54+08:00 ] ::1 /school/index.php/Admin/Areas/area_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0527s ]
+SQL: INSERT INTO `areas` (`a_pid`,`a_name`) VALUES ('6','西安建筑科技大学') [ RunTime:0.1298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-12-21T21:24:56+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-12-21T21:25:00+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0676s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-12-21T21:25:42+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2016-12-21T21:25:45+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2016-12-21T21:26:32+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 174 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-12-21T21:29:26+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 174 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2016-12-21T21:29:38+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2016-12-21T21:29:39+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 174 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2016-12-21T21:31:53+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010963s ]
+
+[ 2016-12-21T21:32:58+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003430s ]
+
+[ 2016-12-21T21:33:02+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 174 行.
+NOTIC: [8] Undefined variable: data G:\htdocs\school\Application\Runtime\Cache\Admin\c420ae88651670fbe25f8403775bdad8.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-12-21T21:33:27+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2016-12-21T21:33:33+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0694s ]
+SQL: SELECT `a_id`,`a_name` FROM `areas` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2016-12-21T21:33:48+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0646s ]
+SQL: SELECT `a_id`,`a_name` FROM `areas` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003109s ]
+
+[ 2016-12-21T21:34:02+08:00 ] ::1 /school/index.php/Admin/Areas/area_update/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0503s ]
+SQL: SELECT `a_id`,`a_name` FROM `areas` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0022s ]
+SQL: UPDATE `areas` SET `a_name`='西安工业大学（未央校区）' WHERE `a_id` = 7 [ RunTime:0.1120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-12-21T21:34:04+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2016-12-21T21:38:37+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.220131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013214s ]
+
+[ 2016-12-21T21:38:48+08:00 ] ::1 /school/index.php/Admin/Areas/area_del/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0660s ]
+SQL: DELETE FROM `areas` WHERE `a_id` = 12 [ RunTime:0.1144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-21T21:38:51+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2016-12-21T21:39:14+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002953s ]
+
+[ 2016-12-21T21:39:28+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-12-21T21:39:37+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0591s ]
+SQL: INSERT INTO `areas` (`a_pid`,`a_name`) VALUES ('0','西安建筑科技大学') [ RunTime:0.1331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-12-21T21:39:40+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2016-12-21T21:39:45+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2016-12-21T21:39:49+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002319s ]
+
+[ 2016-12-21T21:39:54+08:00 ] ::1 /school/index.php/Admin/Areas/area_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-12-21T21:40:23+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002866s ]
+
+[ 2016-12-21T21:41:24+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-12-21T22:07:37+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0635s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-12-21T22:07:56+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-12-21T22:08:02+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2016-12-21T22:08:08+08:00 ] ::1 /school/index.php/Admin/Categorys/cat_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `categorys` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `categorys`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002458s ]
+
+[ 2016-12-21T22:08:58+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0307s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2016-12-21T22:09:23+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2016-12-21T22:09:27+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0514s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` LIMIT 2,1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2016-12-21T22:09:57+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0665s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods` LIMIT 0,1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003290s ]
+
+[ 2016-12-21T22:10:01+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0892s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` LIMIT 1,1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2016-12-21T22:10:06+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1691s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods` LIMIT 2,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008067s ]
+
+[ 2016-12-21T22:16:40+08:00 ] ::1 /school/index.php/Admin/Goods/goods_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods` LIMIT 2,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2016-12-21T22:16:49+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0732s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2016-12-21T22:23:02+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1236s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2016-12-21T22:23:29+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1055s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004740s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004993s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013310s ]
+
+[ 2016-12-21T22:27:47+08:00 ] ::1 /school/index.php/Admin/Areas/area_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `areas`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002027s ]
+
+[ 2016-12-21T22:29:01+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0624s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-12-21T22:29:57+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.1368s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000944s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-12-21T22:30:28+08:00 ] ::1 /school/index.php/Admin/Areas/area_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `areas` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `areas` WHERE ( a_pid=0 )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+

@@ -1,0 +1,140 @@
+<layout name="layout" />
+<style>
+.imgs{
+	width:750px;
+	height:330px;
+	
+}	
+	
+</style>	
+
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	轮播图列表
+    <a class="btn btn-primary navbar-right navbt"href=<{:U('picture_add')}> >添加轮播图</a>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group" >
+<foreach name="data" item="val">
+	<li class="list-group-item" style="text-align: center;height:380px;margin-bottom: 20px;" id='pid<{$val.id}>' >
+	<div class="item">
+      <img style="width: 750px;height: 330px;" src="__PUBLIC__<{$val.url}>" >
+    </div>	  
+      <p > 
+      	<button  class="btn btn-info pull-right" onclick="delete_pic(<{$val.id}>)">删除图片</button>
+      	<if condition="$val.flag eq 'n'">
+        <button  class="btn btn-info pull-left" onclick="set_pic(<{$val.id}>)">设置轮播</button>
+        <else/>
+         <button  class="btn btn-success pull-left" onclick="close_pic(<{$val.id}>)">取消设置</button>
+	         <if condition="$val.first eq 'n' ">
+	         <button  class="btn btn-warning " onclick="first_pic(<{$val.id}>)">设置为主轮播</button>
+	         <else/>
+	          <button  class="btn btn-danger ">当前为主轮播</button>
+	         </if>
+         </if>
+      </p>
+	</li>
+</foreach>
+
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/ueditor/third-party/jquery.min.js"></script>
+
+<script>
+	
+function set_pic(id){
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('set_pic', '', FALSE); ?>/id/"+id,			
+				success:function(data){
+				
+				if(data=='y'){
+
+					alert('轮播设置成功!');
+					
+				}else{
+					alert('轮播设置失败!');
+				}
+			   
+		}
+	});
+	
+}	
+
+function close_pic(id){
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('close_pic', '', FALSE); ?>/id/"+id,			
+				success:function(data){
+				
+				if(data=='y'){
+
+					alert('取消轮播设置成功!');
+					
+				}else{
+					alert('取消设置失败!');
+				}
+			   
+		}
+	});
+	
+}
+
+	function first_pic(id){
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('first_pic', '', FALSE); ?>/id/"+id,			
+				success:function(data){
+				
+				if(data=='y'){
+
+					alert('主轮播设置成功!');
+					
+				}else{
+					alert('主轮播设置失败!');
+				}
+			   
+		}
+	});
+	
+}
+	
+	
+function delete_pic(id){
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('deletepic', '', FALSE); ?>/id/"+id,			
+				success:function(data){
+				
+				if(data=='y'){
+					var pid='#pid'+id;
+					$(pid).remove();
+					alert('图片删除成功!');
+					
+				}else{
+					alert('图片删除失败!');
+				}
+			   
+		}
+	});
+	
+}	
+</script>

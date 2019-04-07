@@ -1,0 +1,46 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	查看公告
+    <a class="btn btn-primary navbar-right navbt"href=<{:U('tips_show')}> >公告列表</a>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group"  >
+	   
+	        <li class="list-group-item" >
+	    	<label for="exampleInputName2">公告时间:</label>
+	    	<div><{$data.time}></div>	    	 
+	    </li>
+	    
+	    
+	        <li class="list-group-item" >
+	    	<label for="exampleInputName2">公告主题:</label>
+	    	<div><{$data.title}></div>
+	    	 
+	    </li>
+	    
+	   <li class="list-group-item" >
+	    	<label for="exampleInputName2">公告内容:</label>
+	    	<div><{$data.content}></div>
+	   </li>
+
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>

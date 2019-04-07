@@ -1,0 +1,51 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	分类列表
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('cat_add')}>  >添加分类</a></button>
+  </div>
+  
+  
+  <div class="panel-body">
+
+  <ul class="list-group" id="cate_ul" >
+	<foreach name="cate_data" item="vo">
+		
+		<if condition="$vo['c_pid'] eq 0 " >
+	<li class="list-group-item" style="background-color:#8EBFFA ;">   
+      <span class="badge"><a href=<{:U("cat_del?id=".$vo['c_pid']."&&ids=".$vo['c_id'])}>  onclick="return confirm('您确定删除此分类？');">删除</a></span>
+      <span class="badge"><a href=<{:U("cat_update?id=".$vo['c_id'])}>   >编辑</a></span>
+      <{$vo.c_name}>
+      	<foreach name="cate_data" item="v1">
+      		<if condition="$v1['c_pid'] eq $vo['c_id'] " >
+      		 
+      		  <li class="list-group-item" >   
+    <span class="badge"><a href=<{:U("cat_del?id=".$v1['c_pid']."&&ids=".$v1['c_id'])}> onclick="return confirm('您确定删除此分类？');" >删除</a></span>
+    <span class="badge"><a href=<{:U("cat_update?id=".$v1['c_id'])}>  >编辑</a></span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span class="glyphicon glyphicon-hand-right cons" aria-hidden="true"></span> 
+  <{$v1.c_name}>
+  </li> 		 
+      		</if>
+      		</foreach>      	
+      </li>     
+		</if>
+	</foreach>
+
+</ul>	
+
+  </div>
+</div>
+
+</div>

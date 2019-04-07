@@ -1,0 +1,53 @@
+<layout name="layout" />
+
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+<li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">
+  	添加分类
+    <button class="btn btn-primary navbar-right navbt" ><a href=<{:U('area_list')}> >地域列表<a></button>
+  </div>
+  <div class="panel-body">
+<form enctype="multipart/form-data"  action="__SELF__" method="post">
+  <ul class="list-group cate_add" id="cate_add" >
+     		 
+    <li class="list-group-item" > 
+    	
+    	<label for="exampleInputName2">选择省份:</label>
+    	 <select name="a_pid"   class="search-1" id="select1" >
+            <option value="0" >顶级地域</option>
+            <foreach name="area_data" item="vo">            	
+            	<option value="<{$vo.a_id}>"  > <{$vo.a_name}> </option>
+            </foreach>	             
+      </select>
+      <label for="exampleInputName2" id="area_info" class="tips"></label>
+      
+    </li>
+    <li class="list-group-item" >
+    	<label for="exampleInputName2">学校名称:</label>
+    	<input type="text" name="a_name" class="form-control cate_input" id="exampleInputName2" placeholder="请输入学校名称">
+    	 <label for="exampleInputName2" id="area_info1" class="tips"></label>
+    </li>
+    
+     <li class="list-group-item"> 
+    	
+  <button type="button" class="btn btn-info" id="add_school">添加学校</button>	
+   <label for="exampleInputName2" id="area_info2" class="tips"></label>
+     </li>
+    
+</form>
+</ul>	
+
+  </div>
+</div>
+
+</div>
+

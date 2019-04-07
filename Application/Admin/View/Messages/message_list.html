@@ -1,0 +1,154 @@
+
+<layout name="layout" />
+<style>
+.prev,.next{
+	border: 1px solid #428bca;
+    display: inline-block;
+    margin-left: 5px;
+    width: 60px;	
+}
+.dele{
+	margin-top: 5px;
+	color: red;
+	font-size: 20px;
+}
+.num,.current{
+	border: 1px solid #428bca;
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}	
+.notread{
+	color: red;
+}	
+.read{
+	color: green;s
+}	
+</style>
+			<!--右边内容显示区-->
+<div class="col-md-10 content-right">
+	<!--路径-->
+<ol class="breadcrumb">
+  <li><a  style="text-decoration: none;" ><{$nav1}>     </a></li>
+  <li><a   style="text-decoration: none;" ><{$nav2}>   </a></li>
+  <li class="active"   ><{$nav3}>    </li>
+  
+</ol>
+
+	<div class="panel panel-default">
+  <!-- 列表信息 -->  
+  <div class="panel-heading">邮件列表</div>
+  <!-- Table -->
+  <table class="table table-striped table-hover">
+   <tr >
+   	<th> 邮件主题</th>
+   	<th> 发件人</th>
+   	<th> 收件时间</th>
+   	<th> 是否阅读</th>
+   	<th> 查看详情</th>
+   	<th> 回复邮件</th>
+   	<th> 删除邮件</th>
+   </tr>
+   
+     <foreach name="data" item="val">
+    <tr id="mid<{$val.id}>" >
+   	<td> <{$val.m_title}>  </td>
+   	<td> <{$val.m_user}> </td>
+   	<td> <{$val.m_time}></td>
+    <if condition="$val['m_flag']=='已阅' ">
+   		<td  class="read"><{$val.m_flag}></td>
+   	<else/>	
+   	    <td id="r<{$val.id}>" class="notread"><{$val.m_flag}></td>
+    </if>  	
+   	
+   	<td>
+	  <button onclick="look_mes(<{$val.id}>);"  type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    查看邮件 
+	  </button>   		
+   	</td>
+   	<td> 
+	  <a  class="btn btn-warning dropdown-toggle" href=<{:U('Messages/send_email?id='.$val["id"])}>  >
+	    回复邮件 
+	  </a>
+	</td>
+   	<td><span  onclick="delete_mes(<{$val.id}>);" class="glyphicon glyphicon-remove dele" aria-hidden="true"></span></td>
+   </tr>
+     </foreach>
+   
+<tr>
+   <td align="center" colspan="9"> 
+   	<{$page}>
+   </td>
+</tr>
+  </table>
+</div>
+<div class="panel panel-default" id="mes_content"  style="display: none;" >
+  <div class="panel-body" >
+ <p>发件人:<span id="span_user"></span></p>
+ <p>邮件主题:<span id="span_title"></span></p>
+ <p>邮件内容:<span id="span_content"></span></p>
+    
+  </div>
+  <div class="panel-body" >
+ <button type="button" id="closeinfo" class="btn btn-info dropdown-toggle pull-right" data-toggle="dropdown" aria-expanded="false">
+关闭邮件内容
+ </button>
+ </div>
+</div>
+	
+</div>
+<script src="<{$Think.const.JS_URL}>jquery.js"></script>
+<script>
+//删除邮件
+function delete_mes(m_id){
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('deletemessage', '', FALSE); ?>/m_id/"+m_id,			
+				success:function(data){
+				if(data=='y'){
+					var mid='#mid'+m_id;
+					$(mid).remove();
+					alert('邮件删除成功!');
+					
+				}else{
+					alert('邮件删除失败!');
+				}
+			   
+		}
+	});
+	
+}
+//查看邮件
+function look_mes(m_id){
+	$("#mes_content").css('display','none');
+				$.ajax({
+				type:"get",
+				url:"<?php echo U('look_mes', '', FALSE); ?>/m_id/"+m_id,
+				dataType:'json',
+				success:function(data){
+					if(data){
+						$("#mes_content").css('display','block');
+							$('#span_user').html(data.m_user);
+							$('#span_title').html(data.m_title);
+							$('#span_content').html(data.m_content);
+							var rid="#r"+m_id;
+							$(rid).html('已阅');
+							$(rid).css('color','green');
+							
+							
+					}
+
+			   
+		}
+	});
+	
+}
+//关闭邮件内容
+$("#closeinfo").click(function(){
+	
+	$("#mes_content").css('display','none');
+});
+
+	
+</script>	
